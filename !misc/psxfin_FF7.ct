@@ -1,0 +1,4437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>584</ID>
+      <Description>"ePSXe 1.9.0 RAM Pointer 1"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"ePSXe.exe"+0001A58C</Address>
+      <Offsets>
+        <Offset>80</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>585</ID>
+      <Description>"ePSXe 1.9.0 RAM Pointer 2"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"ePSXe.exe"+00024928</Address>
+      <Offsets>
+        <Offset>4+80</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Alt pSX Pointer"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"psxfin.exe"+0016D6D8</Address>
+      <Offsets>
+        <Offset>20</Offset>
+        <Offset>64</Offset>
+        <Offset>0</Offset>
+        <Offset>8</Offset>
+        <Offset>14</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"pSX 1.13 RAM Pointer"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"psxfin.exe"+0016D6E4</Address>
+      <Offsets>
+        <Offset>20</Offset>
+        <Offset>64</Offset>
+        <Offset>0</Offset>
+        <Offset>8</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"Asking for Disc"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+9D588</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"Party Leader (Field)"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Barret
+02:Tifa
+03:Aerith
+04:Red XIII
+05:Yuffie
+06:Cait Sith
+07:Vincent
+08:Cid
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>+9D391</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>31</ID>
+              <Description>"Second Member"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Barret
+02:Tifa
+03:Aerith
+04:Red XIII
+05:Yuffie
+06:Cait Sith
+07:Vincent
+08:Cid
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+1</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>32</ID>
+              <Description>"Third Member"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Barret
+02:Tifa
+03:Aerith
+04:Red XIII
+05:Yuffie
+06:Cait Sith
+07:Vincent
+08:Cid
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+2</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>451</ID>
+          <Description>"Player Field Model"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>+9AC1E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"Walk During Dialogue"</Description>
+          <DropDownList DisplayValueAsItem="1">0000:Can Walk
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+9AC26</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"Room Teleport"</Description>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+9A05C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"Music BPM"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+9A11E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"No Music"</Description>
+          <DropDownList DisplayValueAsItem="1">0001:Active
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+62FF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"Full Menu Access"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>21</ID>
+              <Description>"1"</Description>
+              <DropDownList DisplayValueAsItem="1">0B:Active
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+9A0CE</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>22</ID>
+              <Description>"2 MenusSelectable"</Description>
+              <DropDownList DisplayValueAsItem="1">0B:Active
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+9A0D5</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>23</ID>
+              <Description>"3 MenusVisible"</Description>
+              <DropDownList DisplayValueAsItem="1">FFFF:Active
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+9D2A4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>24</ID>
+              <Description>"4 MenusDisabled"</Description>
+              <DropDownList DisplayValueAsItem="1">0000:Active
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+9D2A6</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"5"</Description>
+              <DropDownList DisplayValueAsItem="1">0300:Active
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+9D2D2</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"Field Menu Modifier"</Description>
+          <DropDownList DisplayValueAsItem="1">0000:Field
+0200:Battle
+0500:FMV
+0600:Naming Menu
+0700:PHS
+0800:Shop
+0901:Pause Menu
+0C00:Bike Game
+0D00:Reload Map
+0E01:Save Menu
+1200:Fade Out
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+9ABF4</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>18</ID>
+              <Description>"Variable"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+2</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Battle Modifier"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+707BC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"World Battle(?)"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+116274</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Random Battles (Field)"</Description>
+          <DropDownList DisplayValueAsItem="1">0000:None
+7777:Many
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+7173C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"Random Battles (World)"</Description>
+          <DropDownList DisplayValueAsItem="1">0000:None
+FFFF:Many
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+11627C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"Variable Info"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"Coords (temp)"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>66</ID>
+                  <Description>"X"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>+138264</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>67</ID>
+                  <Description>"Current Triangle"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+74F16</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>71</ID>
+              <Description>"Variables"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>225</ID>
+                  <Description>"[1][199]"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9D368-19</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>226</ID>
+                      <Description>"Touched Hot Spring"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>228</ID>
+                      <Description>"Gone Hot Spring Lady"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>227</ID>
+                      <Description>"Lost to Hot Spring Lady"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>142</ID>
+                  <Description>"[1][224] (Sh.Bl. Max Floor Access)"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9D28B+DD</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>143</ID>
+                  <Description>"[3][172]"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9D391+A3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>144</ID>
+                  <Description>"[3][179]"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9D391+AA</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>100</ID>
+                  <Description>"[4][80] (Battle Points)"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+9D3D8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>68</ID>
+                  <Description>"[5][6]"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>+75E2A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>141</ID>
+                  <Description>"[6][10]?"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+75E2E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>140</ID>
+                  <Description>"[6][12]"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+75E30</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>129</ID>
+                  <Description>"[15][131]"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9D70B</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>130</ID>
+                      <Description>"Raining"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:Off
+1:On
+</DropDownList>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>203</ID>
+                  <Description>"Countdown"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <VariableType>Byte</VariableType>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>208</ID>
+                      <Description>"Real Time"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+9D268</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>204</ID>
+                      <Description>"Hours"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D29C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>207</ID>
+                      <Description>"Minutes"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D29D</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>206</ID>
+                      <Description>"Seconds"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D29E</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>205</ID>
+                      <Description>"Frames"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D29F</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97</ID>
+              <Description>"Globals"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>Byte</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>111</ID>
+                  <Description>"Game Moment"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+9D288</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>135</ID>
+                  <Description>"Love Points"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <VariableType>Byte</VariableType>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>131</ID>
+                      <Description>"Aeris"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28B</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>136</ID>
+                          <Description>"Red Mod Crushes"</Description>
+                          <VariableType>2 Bytes</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>132</ID>
+                      <Description>"Tifa"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28C</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>137</ID>
+                          <Description>"Red Mod Crushes BE"</Description>
+                          <VariableType>Byte</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>133</ID>
+                      <Description>"Yuffie"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28D</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>139</ID>
+                          <Description>"Red Mod New Flags"</Description>
+                          <ShowAsHex>1</ShowAsHex>
+                          <VariableType>Byte</VariableType>
+                          <Address>+0</Address>
+                          <CheatEntries>
+                            <CheatEntry>
+                              <ID>145</ID>
+                              <Description>"Sormr Fought"</Description>
+                              <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                              <ShowAsHex>1</ShowAsHex>
+                              <VariableType>Binary</VariableType>
+                              <BitStart>0</BitStart>
+                              <BitLength>1</BitLength>
+                              <ShowAsBinary>0</ShowAsBinary>
+                              <Address>+0</Address>
+                            </CheatEntry>
+                            <CheatEntry>
+                              <ID>229</ID>
+                              <Description>"Great Glacier Timer On"</Description>
+                              <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                              <ShowAsHex>1</ShowAsHex>
+                              <VariableType>Binary</VariableType>
+                              <BitStart>1</BitStart>
+                              <BitLength>1</BitLength>
+                              <ShowAsBinary>0</ShowAsBinary>
+                              <Address>+0</Address>
+                            </CheatEntry>
+                          </CheatEntries>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>134</ID>
+                      <Description>"Barret"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28E</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>138</ID>
+                          <Description>"Red Mod Unused 2"</Description>
+                          <VariableType>Byte</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>215</ID>
+                  <Description>"BattleLove Points"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <VariableType>Byte</VariableType>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>216</ID>
+                      <Description>"Aeris"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28B+4D</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>217</ID>
+                          <Description>"Red Mod Unused 1"</Description>
+                          <VariableType>2 Bytes</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>218</ID>
+                      <Description>"Tifa"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28C+4D</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>219</ID>
+                          <Description>"Red Mod Unused 2"</Description>
+                          <VariableType>Byte</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>220</ID>
+                      <Description>"Yuffie"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28D+4D</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>221</ID>
+                          <Description>"Red Mod Unused 3"</Description>
+                          <ShowAsHex>1</ShowAsHex>
+                          <VariableType>Byte</VariableType>
+                          <Address>+0</Address>
+                          <CheatEntries>
+                            <CheatEntry>
+                              <ID>222</ID>
+                              <Description>"bit"</Description>
+                              <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                              <ShowAsHex>1</ShowAsHex>
+                              <VariableType>Binary</VariableType>
+                              <BitStart>0</BitStart>
+                              <BitLength>1</BitLength>
+                              <ShowAsBinary>0</ShowAsBinary>
+                              <Address>+0</Address>
+                            </CheatEntry>
+                          </CheatEntries>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>223</ID>
+                      <Description>"Barret"</Description>
+                      <Options moManualExpandCollapse="1"/>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D28E+4D</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>224</ID>
+                          <Description>"Red Mod Unused 4"</Description>
+                          <VariableType>Byte</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>214</ID>
+                  <Description>"Time Played"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>209</ID>
+                      <Description>"Real Time"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+9D264</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>210</ID>
+                      <Description>"Hours"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D298</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>211</ID>
+                      <Description>"Minutes"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D299</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>212</ID>
+                      <Description>"Seconds"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D29A</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>213</ID>
+                      <Description>"Frames"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D29B</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>112</ID>
+                  <Description>"Gil"</Description>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>+9D260</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>464</ID>
+                  <Description>"Steps"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+9D58E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>99</ID>
+                  <Description>"Battles Entered"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+9D2A0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>98</ID>
+                  <Description>"Battles Escaped"</Description>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+9D2A2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>101</ID>
+                  <Description>"Kills"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>110</ID>
+                      <Description>"Cloud"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C-84*4</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>109</ID>
+                      <Description>"Barret"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C-84*3</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>108</ID>
+                      <Description>"Tifa"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C-84*2</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>107</ID>
+                      <Description>"Aeris"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C-84*1</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>102</ID>
+                      <Description>"Red XIII"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>103</ID>
+                      <Description>"Yuffie"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C+84*1</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>104</ID>
+                      <Description>"Cait Sith"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C+84*2</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>105</ID>
+                      <Description>"Vincent"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C+84*3</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>106</ID>
+                      <Description>"Cid"</Description>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>+9C96C+84*4</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>456</ID>
+                  <Description>"Key Items"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>455</ID>
+                      <Description>"Key Items 1"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+26</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>462</ID>
+                      <Description>"Key Items 2"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+27</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>461</ID>
+                      <Description>"Key Items 3"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+28</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>460</ID>
+                      <Description>"Key Items 4"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+29</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>459</ID>
+                      <Description>"Key Items 5"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+2A</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>458</ID>
+                      <Description>"Key Items 6"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+2B</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>457</ID>
+                      <Description>"Key Items 7"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+2C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>463</ID>
+                      <Description>"Key Items 8"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>+9D2A2+2D</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>453</ID>
+                  <Description>"Field Help"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Off
+01:On
+02:Forced On
+03:Finger Only
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9D58E+18</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>179</ID>
+          <Description>"Battle Setup"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"Top Weapon Model"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+09DC5D</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"Middle Weapon Model"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+09E09D</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Bottom Weapon Model"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+09E4DD</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>148</ID>
+              <Description>"Battle Background"</Description>
+              <DropDownList DisplayValueAsItem="1">07:Snow
+0F:Shinra HQ
+50:Airship
+56:Shinra HQ Bloody
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+163614</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>149</ID>
+              <Description>"Intro Camera"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+163F30</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>150</ID>
+              <Description>"Battle Camera 1"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+163628</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>152</ID>
+                  <Description>"CamX (left)"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>153</ID>
+                  <Description>"CamY (down)"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>154</ID>
+                  <Description>"CamZ (party)"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>155</ID>
+                  <Description>"FocusX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>156</ID>
+                  <Description>"FocusY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>157</ID>
+                  <Description>"FocusZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>158</ID>
+              <Description>"Battle Camera 2"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+163628+C</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>159</ID>
+                  <Description>"CamX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>160</ID>
+                  <Description>"CamY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>161</ID>
+                  <Description>"CamZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>162</ID>
+                  <Description>"FocusX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>163</ID>
+                  <Description>"FocusY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>164</ID>
+                  <Description>"FocusZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>165</ID>
+              <Description>"Battle Camera 3"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+163628+18</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>173</ID>
+                  <Description>"CamX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>174</ID>
+                  <Description>"CamY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>175</ID>
+                  <Description>"CamZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>176</ID>
+                  <Description>"FocusX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>177</ID>
+                  <Description>"FocusY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>178</ID>
+                  <Description>"FocusZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>166</ID>
+              <Description>"Battle Camera 4"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+163628+24</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>167</ID>
+                  <Description>"CamX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>168</ID>
+                  <Description>"CamY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>169</ID>
+                  <Description>"CamZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>170</ID>
+                  <Description>"FocusX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>171</ID>
+                  <Description>"FocusY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>172</ID>
+                  <Description>"FocusZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>151</ID>
+              <Description>"Enemy 1"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+F7E08</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>180</ID>
+                  <Description>"PosX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>181</ID>
+                  <Description>"PosY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>182</ID>
+                  <Description>"PosZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>183</ID>
+              <Description>"Enemy 2"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+F7E08+10</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>188</ID>
+                  <Description>"PosX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>189</ID>
+                  <Description>"PosY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>190</ID>
+                  <Description>"PosZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>184</ID>
+              <Description>"Enemy 3"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+F7E08+20</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>191</ID>
+                  <Description>"PosX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>192</ID>
+                  <Description>"PosY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>193</ID>
+                  <Description>"PosZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>185</ID>
+              <Description>"Enemy 4"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+F7E08+30</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>194</ID>
+                  <Description>"PosX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>195</ID>
+                  <Description>"PosY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>196</ID>
+                  <Description>"PosZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>186</ID>
+              <Description>"Enemy 5"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+F7E08+40</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>197</ID>
+                  <Description>"PosX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>198</ID>
+                  <Description>"PosY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>199</ID>
+                  <Description>"PosZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>187</ID>
+              <Description>"Enemy 6"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+163658+50</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>200</ID>
+                  <Description>"PosX"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>201</ID>
+                  <Description>"PosY"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>202</ID>
+                  <Description>"PosZ"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"Battle Stuff"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>92</ID>
+              <Description>"Battle Result"</Description>
+              <DropDownList DisplayValueAsItem="1">00:In Battle
+01:Victory
+04:Instant Escape
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+F83C6</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>77</ID>
+              <Description>"Acting Slot"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Top party
+01:Middle party
+02:Bottom party
+03:Null?
+04:1st Enemy
+05:2nd Enemy
+06:3rd Enemy
+07:4th Enemy
+08:5th Enemy
+09:6th Enemy
+FF:None
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+163798</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>82</ID>
+              <Description>"Player Controls"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Top party
+01:Middle party
+02:Bottom party
+03:Null?
+04:1st Enemy
+05:2nd Enemy
+06:3rd Enemy
+07:4th Enemy
+08:5th Enemy
+09:6th Enemy
+FF:None
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+E7A48</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>465</ID>
+              <Description>"Limit Ready"</Description>
+              <DropDownList DisplayValueAsItem="1">07:All Members?
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+163762</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>446</ID>
+              <Description>"Top Manip"</Description>
+              <DropDownListLink>Player Controls</DropDownListLink>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+F5E66</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>447</ID>
+              <Description>"Middle Manip"</Description>
+              <DropDownListLink>Player Controls</DropDownListLink>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+F5E66+34*1</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>448</ID>
+              <Description>"Bottom Manip"</Description>
+              <DropDownListLink>Player Controls</DropDownListLink>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+F5E66+34*2</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>64</ID>
+              <Description>"Size Modifier"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>50</ID>
+                  <Description>"Top Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+1518EA</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>51</ID>
+                  <Description>"Middle Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+152486</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>52</ID>
+                  <Description>"Bottom Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>83</ID>
+                  <Description>"1st Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022+B9C*2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>84</ID>
+                  <Description>"2nd Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022+B9C*3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>87</ID>
+                  <Description>"3rd Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022+B9C*4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>88</ID>
+                  <Description>"4th Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022+B9C*5</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>85</ID>
+                  <Description>"5th Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022+B9C*6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>86</ID>
+                  <Description>"6th Size"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+153022+B9C*7</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>236</ID>
+              <Description>"Temp Buffs"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>94</ID>
+                  <Description>"Atk/MAtk/Def/MDef Top"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C-44*5</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>96</ID>
+                  <Description>"Atk/MAtk/Def/MDef Mid"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C-44*4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>95</ID>
+                  <Description>"Atk/MAtk/Def/MDef Bot"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C-44*3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>230</ID>
+                  <Description>"Atk/MAtk/Def/MDef 1st"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C-44*1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>231</ID>
+                  <Description>"Atk/MAtk/Def/MDef 2nd"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C+44*0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>232</ID>
+                  <Description>"Atk/MAtk/Def/MDef 3rd"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C+44*1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>233</ID>
+                  <Description>"Atk/MAtk/Def/MDef 4th"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C+44*2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>234</ID>
+                  <Description>"Atk/MAtk/Def/MDef 5th"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C+44*3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>235</ID>
+                  <Description>"Atk/MAtk/Def/MDef 6th"</Description>
+                  <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
+64 64 64 64:200%
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>4</ByteLength>
+                  <Address>+F5D2C+44*4</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>445</ID>
+              <Description>"ATB Gauge"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>442</ID>
+                  <Description>"Top ATB"</Description>
+                  <DropDownList DisplayValueAsItem="1">0000:Empty
+FFFF:Ready
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC-44*4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>443</ID>
+                  <Description>"Middle ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC-44*3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>444</ID>
+                  <Description>"Bottom ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC-44*2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>436</ID>
+                  <Description>"1st ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>437</ID>
+                  <Description>"2nd ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC+44*1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>438</ID>
+                  <Description>"3rd ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC+44*2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>439</ID>
+                  <Description>"4th ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC+44*3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>441</ID>
+                  <Description>"5th ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC+44*4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>440</ID>
+                  <Description>"6th ATB"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F5CCC+44*5</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>238</ID>
+              <Description>"Flags"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>237</ID>
+                  <Description>"Top Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>239</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>240</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>241</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>242</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>243</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>244</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>245</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>246</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>247</ID>
+                  <Description>"Top Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>248</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>249</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>250</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>251</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>252</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>253</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>254</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>255</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>256</ID>
+                  <Description>"Top Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>259</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>257</ID>
+                  <Description>"Top Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>258</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>282</ID>
+                  <Description>"Middle Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*1</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>283</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>284</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>285</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>286</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>287</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>288</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>289</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>290</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>291</ID>
+                  <Description>"Middle Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*1</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>292</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>293</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>294</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>295</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>296</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>297</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>298</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>299</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>300</ID>
+                  <Description>"Middle Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*1</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>301</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>302</ID>
+                  <Description>"Middle Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*1</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>303</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>304</ID>
+                  <Description>"Bottom Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*2</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>305</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>306</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>307</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>308</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>309</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>310</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>311</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>312</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>313</ID>
+                  <Description>"Bottom Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*2</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>314</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>315</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>316</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>317</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>318</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>319</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>320</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>321</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>322</ID>
+                  <Description>"Bottom Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*2</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>323</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>324</ID>
+                  <Description>"Bottom Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*2</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>325</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>326</ID>
+                  <Description>"1st Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*4</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>327</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>328</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>329</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>330</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>331</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>332</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>333</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>334</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>335</ID>
+                  <Description>"1st Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*4</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>336</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>337</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>338</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>339</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>340</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>341</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>342</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>343</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>344</ID>
+                  <Description>"1st Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*4</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>345</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>346</ID>
+                  <Description>"1st Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*4</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>347</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>260</ID>
+                  <Description>"2nd Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*5</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>261</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>262</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>263</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>264</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>265</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>266</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>267</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>268</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>269</ID>
+                  <Description>"2nd Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*5</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>270</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>271</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>272</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>273</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>274</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>275</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>276</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>277</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>278</ID>
+                  <Description>"2nd Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*5</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>279</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>280</ID>
+                  <Description>"2nd Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*5</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>281</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>348</ID>
+                  <Description>"3rd Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*6</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>349</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>350</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>351</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>352</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>353</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>354</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>355</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>356</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>357</ID>
+                  <Description>"3rd Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*6</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>358</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>359</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>360</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>361</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>362</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>363</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>364</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>365</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>366</ID>
+                  <Description>"3rd Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*6</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>367</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>368</ID>
+                  <Description>"3rd Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*6</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>369</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>370</ID>
+                  <Description>"4th Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*7</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>371</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>372</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>373</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>374</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>375</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>376</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>377</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>378</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379</ID>
+                  <Description>"4th Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*7</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>380</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>381</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>382</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>383</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>384</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>385</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>386</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>387</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>388</ID>
+                  <Description>"4th Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*7</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>389</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>390</ID>
+                  <Description>"4th Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*7</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>391</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>392</ID>
+                  <Description>"5th Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*8</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>393</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>394</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>395</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>396</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>397</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>398</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>399</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>400</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>401</ID>
+                  <Description>"5th Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*8</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>402</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>403</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>404</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>405</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>406</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>407</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>408</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>409</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>410</ID>
+                  <Description>"5th Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*8</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>411</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>412</ID>
+                  <Description>"5th Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*8</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>413</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>414</ID>
+                  <Description>"6th Set 1"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E4+68*9</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>415</ID>
+                      <Description>"Visible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>416</ID>
+                      <Description>"Side Attack"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>417</ID>
+                      <Description>"Unknown4"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>418</ID>
+                      <Description>"Targetable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>419</ID>
+                      <Description>"Mainscript"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>420</ID>
+                      <Description>"Defending"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>421</ID>
+                      <Description>"Back Row"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>422</ID>
+                      <Description>"Facing"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>423</ID>
+                  <Description>"6th Set 2"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E5+68*9</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>424</ID>
+                      <Description>"Phys Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>425</ID>
+                      <Description>"Mag Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>426</ID>
+                      <Description>"Status Immune"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>427</ID>
+                      <Description>"Unreachable"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>428</ID>
+                      <Description>"No Death Anim"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>429</ID>
+                      <Description>"Dead"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>430</ID>
+                      <Description>"Intangible"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>431</ID>
+                      <Description>"Unknown7"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>7</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>432</ID>
+                  <Description>"6th Set 3"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E6+68*9</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>433</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>434</ID>
+                  <Description>"6th Set 4"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F83E7+68*9</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>435</ID>
+                      <Description>"Unknown0"</Description>
+                      <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Spell Info"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>72</ID>
+              <Description>"Spell Anim?"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+16379A</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>73</ID>
+              <Description>"Title Pointer"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+16379C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>74</ID>
+              <Description>"Title"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+16379E</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>75</ID>
+              <Description>"Camera"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+1637A0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>80</ID>
+              <Description>"Cure Spell Anim"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+708D1</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>81</ID>
+              <Description>"Item Spell Anim"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+722D9</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>452</ID>
+          <Description>"World Map Stuff"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>449</ID>
+              <Description>"World Map Controlling"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>4 Bytes</VariableType>
+              <Address>+10AD40</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>49</ID>
+              <Description>"World Map Big"</Description>
+              <DropDownList DisplayValueAsItem="1">FFFF:Active
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+E5670</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>53</ID>
+              <Description>"EQ World Map"</Description>
+              <DropDownList DisplayValueAsItem="1">0000:Off
+0001:On
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+E5630</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>54</ID>
+              <Description>"EQ Vertical"</Description>
+              <DropDownList DisplayValueAsItem="1">0006:On
+0008:Off
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+C84FE</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>55</ID>
+              <Description>"EQ Horizontal"</Description>
+              <DropDownList DisplayValueAsItem="1">0000:Off
+0002:On
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>2 Bytes</VariableType>
+              <Address>+C84FC</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>114</ID>
+          <Description>"World Map Objects"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>128</ID>
+              <Description>" "</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*8</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>127</ID>
+              <Description>" "</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*7</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>126</ID>
+              <Description>" "</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*6</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>125</ID>
+              <Description>" "</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*5</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>124</ID>
+              <Description>" "</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>120</ID>
+              <Description>" "</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*3</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>119</ID>
+              <Description>"Red Mod Airship"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*2</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>123</ID>
+                  <Description>"Movement"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Null
+02:Ground Standing
+82:Air Standing
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>118</ID>
+              <Description>"Red Mod Sub"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4-E0*1</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>122</ID>
+                  <Description>"Movement"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Null
+02:Ground Standing
+82:Air Standing
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>115</ID>
+              <Description>"Red Mod's Party Leader"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A5A4</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>117</ID>
+                  <Description>"Movement"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Null
+02:Ground Standing
+82:Air Standing
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>56</ID>
+                  <Description>"Cutscene?"</Description>
+                  <DropDownList DisplayValueAsItem="1">20E0:Board Airship
+20EF:Normal
+22E0:Diamond EQ
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>-A</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>116</ID>
+              <Description>"Red Mod's Leader or Choco"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Cloud
+01:Tifa
+02:Cid
+03:Airship
+04:Wild Chocobo
+05:Tiny Bronco
+06:Buggy
+07:Sister Ray
+08:Cargo Ship
+09:Airship Propellers
+0A:Diamond Weapon
+0B:Ultimate Weapon
+0C:Phoenix
+0D:Submarine
+0E:Gold Saucer
+0F:Rocket
+10:Rocket Pad
+11:Sunken Gelnika
+12:Underwater Reactor
+13:Owned Chocobo
+14:? not as small collision
+15:? no collision?
+16:? '' '
+17:? '' '
+18:Crater Energy Sphere
+19:Optional Ancient Forest
+1A:Key of the Ancients
+1B:Patch of coral?
+1C:Sunken Submarine
+1D:Ruby Weapon
+1E:Emerald Weapon
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>+10A684</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>121</ID>
+                  <Description>"Movement"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Null
+02:Ground Standing
+82:Air Standing
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"Sephiroth in Party"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <VariableType>Byte</VariableType>
+          <Address>+0</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>35</ID>
+              <Description>"Slot 1"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>Byte</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>38</ID>
+                  <Description>"1"</Description>
+                  <DropDownList DisplayValueAsItem="1">0A:Active
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9CBDC</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>39</ID>
+                  <Description>"2"</Description>
+                  <DropDownList DisplayValueAsItem="1">0A:Active
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9CAD4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>40</ID>
+                  <Description>"3 (AI)"</Description>
+                  <DropDownList DisplayValueAsItem="1">0048:Active
+00C8:Alt Method?
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F83E4</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>41</ID>
+              <Description>"Slot 2"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>Byte</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>42</ID>
+                  <Description>"1"</Description>
+                  <DropDownList DisplayValueAsItem="1">0A:Active
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9CBDD</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>43</ID>
+                  <Description>"2"</Description>
+                  <DropDownList DisplayValueAsItem="1">0A:Active
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9CAD4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>44</ID>
+                  <Description>"3 (AI)"</Description>
+                  <DropDownList DisplayValueAsItem="1">0048:Active
+00C8:Alt Method?
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F844C</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>45</ID>
+              <Description>"Slot 3"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <VariableType>Byte</VariableType>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>46</ID>
+                  <Description>"1"</Description>
+                  <DropDownList DisplayValueAsItem="1">0A:Active
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9CBDE</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>47</ID>
+                  <Description>"2"</Description>
+                  <DropDownList DisplayValueAsItem="1">0A:Active
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9CAD4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>48</ID>
+                  <Description>"3 (AI)"</Description>
+                  <DropDownList DisplayValueAsItem="1">0048:Active
+00C8:Alt Method?
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+F84B4</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"Value Lists"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C0C0C0</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>146</ID>
+          <Description>"BOOLEAN VALUES"</Description>
+          <DropDownList DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>454</ID>
+          <Description>"ONOFF"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Off
+01:On
+</DropDownList>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>chkAmmoAfterFireAOB</Name>
+      <Address>7FF70CDA0D36</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>chkAmmoAfterFireAOB1</Name>
+      <Address>7FF70CDA0D36</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>chkAmmoAfterFireAOB2</Name>
+      <Address>7FF70CD9ECFC</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>chkAmmoAfterFireAOB3</Name>
+      <Address>7FF70CD9FC3A</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>healthWrite1cAOB</Name>
+      <Address>7FF70CD1ED5E</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>fMinHealth</Name>
+      <Address>7FF70CA3006B</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ammoChkMaxOnReloadAOB</Name>
+      <Address>7FF70CD9F1B6</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>energyWrite1OnUseAOB</Name>
+      <Address>7FF70CD36065</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>WeaponData</Name>
+      <Address>7FF70CA0001C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>CurWeapAOB</Name>
+      <Address>7FF70CE952FF</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+  <Comments>Codes found by Kemui52 are:
+-Pointers for pSX RAM.
+-Locations for variables.
+-Everything under Battle Setup.
+Most other codes found by folks on GameHacking.org
+2710
+FD00
+1800
+0000
+FE00
+FD80
+2500
+FE00
+3000
+0000
+FB00
+FD00
+</Comments>
+  <LuaScript>--Automatic size modifier and strength buff, written by Kemui52
+local f = createForm( true );
+f.setCaption("Host for LUA Timer");
+local Timer = createTimer( f, true );
+timer_setInterval( Timer, 1000 );
+local ActWind = getOpenedProcessID();
+local AddressList = getAddressList()
+local SizeAddrT = GetAddress(AddressList.getMemoryRecordByDescription("Top Size").AddressString)
+local BuffAddrT = GetAddress(AddressList.getMemoryRecordByDescription("Atk/MAtk/Def/MDef Top").AddressString)
+local SizeAddrM = GetAddress(AddressList.getMemoryRecordByDescription("Middle Size").AddressString)
+local BuffAddrM = GetAddress(AddressList.getMemoryRecordByDescription("Atk/MAtk/Def/MDef Mid").AddressString)
+local SizeAddrB = GetAddress(AddressList.getMemoryRecordByDescription("Bottom Size").AddressString)
+local BuffAddrB = GetAddress(AddressList.getMemoryRecordByDescription("Atk/MAtk/Def/MDef Bot").AddressString)
+
+--Edit below for what you want to use
+local SizeMult = 2.0 --max is 7.9
+local BuffMult = 50 --50 or 100
+local SizeAddrUse = SizeAddrT --which member to edit. T, M, or B (top, middle, or bottom)
+local BuffAddrUse = BuffAddrT --which member to edit. T, M, or B (top, middle, or bottom)
+
+timer_onTimer( Timer, function( )
+local SizeCompare = readSmallInteger(SizeAddrUse);
+if SizeCompare == 0x1000 then
+ writeSmallInteger(SizeAddrUse,0x1000 * SizeMult)
+ writeBytes(BuffAddrUse,BuffMult,BuffMult,BuffMult,BuffMult)
+end
+
+end );
+</LuaScript>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"EDF41.exe"+30AB70</Address>
+      <Comment>WeaponBase
+</Comment>
+      <Header>WeaponBase
+</Header>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"EDF41.exe"+5686E0</Address>
+      <Header>LoadSGOObject
+</Header>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>

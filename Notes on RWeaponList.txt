@@ -1,0 +1,172 @@
+Excerpt from: Monster/Item/Weapon Lists GameFAQ by DC
+---------------------------------------------------------------------
+
+Name:           Mythril Clip
+Attack:         24
+Attack %:       100
+Magic Attack:   6
+Materia Growth: Normal
+Cost:           800
+Location:       Red XIII is equipped with this, bought from Junon
+Slots:          0=0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Diamond Pin
+Attack:         33
+Attack %:       102
+Magic Attack:   8
+Materia Growth: Normal
+Cost:           1300		New Spot: Wall Market?
+Location:       Stolen from Bagnaranda (Mt.Corel), bought from Junon
+                or Gongaga
+Slots:          0=0 0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Magic Comb
+Attack:         37
+Attack %:       100
+Magic Attack:   4
+Materia Growth: Double
+Cost:           2000		New Spot: Shinra Building
+Location:       Won at Fort Condor, bought at Junon (Disc 2)
+Slots:          0 0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Plus Barrette
+Attack:         39
+Attack %:       104
+Magic Attack:   12
+Materia Growth: Double
+Cost:           3500		New Spot: Kalm
+Location:       Mt.Nibel, bought at Junon (Disc 2)
+Slots:          0 0 0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Seraph Comb
+Attack:         68
+Attack %:       110
+Magic Attack:   14
+Materia Growth: Normal
+Cost:           ---
+Location:       Recieved after the Cave of the Gi
+Slots:          0 0 0 0
+Notes:          Memento of father
+
+---------------------------------------------------------------------
+
+Name:           Silver Barrette
+Attack:         40
+Attack %:       110
+Magic Attack:   10
+Materia Growth: Normal
+Cost:           2500		New Spot: Junon/Costa del Sol, or won at Fort Condor
+Location:       Bought at Cosmo Canyon
+Slots:          0=0 0=0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Gold Barrette
+Attack:         50
+Attack %:       104
+Magic Attack:   13
+Materia Growth: Normal
+Cost:           6000		New Spot: Gold Saucer
+Location:       Bought at Wutai
+Slots:          0=0 0=0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Hairpin
+Attack:         57
+Attack %:       120
+Magic Attack:   15
+Materia Growth: None
+Cost:           6000		New Spot: Gongaga
+Location:       Secret passage in house (Wutai)
+Slots:          None
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Adaman Clip
+Attack:         60
+Attack %:       106
+Magic Attack:   15
+Materia Growth: Normal
+Cost:           11000		New Spot:
+Location:       Bought at Icicle Village
+Slots:          0=0 0=0 0 0
+Notes:          Long Range
+
+---------------------------------------------------------------------
+
+Name:           Crystal Comb
+Attack:         76
+Attack %:       108
+Magic Attack:   20
+Materia Growth: Normal
+Cost:           17000
+Location:       0=0 0=0 0=0
+Slots:          ---
+Notes:
+
+---------------------------------------------------------------------
+
+Name:           Centclip
+Attack:         58
+Attack %:       108
+Magic Attack:   22
+Materia Growth: Normal
+Cost:           14000		New Spot: Bought at Cosmo Canyon
+Location:       Bought at Costa Del Sol (Disc 2)
+Slots:          0 0 0 0 0 0 0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Spring Gun Clip
+Attack:         87
+Attack %:       100
+Magic Attack:   55
+Materia Growth: Normal
+Cost:           ---
+Location:       Ancient Forest
+Slots:          0=0 0=0 0=0
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Behemoth Horn
+Attack:         91
+Attack %:       75
+Magic Attack:   26
+Materia Growth: Normal
+Cost:           ---
+Location:       Shinra HQ
+Slots:          0 0 0 0 0 0
+Notes:          Vitality +35, Spirit +18
+
+---------------------------------------------------------------------
+
+Name:           Limited Moon (ULTIMATE WEAPON)
+Attack:         93
+Attack %:       114
+Magic Attack:   31
+Materia Growth: None
+Cost:           ---
+Location:       Bugenhagen gives it to you (Disc 3)
+Slots:          0=0 0=0 0=0 0=0
+Notes:          The more MP you have currently, the higher the power
+                of the weapon.
+
+---------------------------------------------------------------------

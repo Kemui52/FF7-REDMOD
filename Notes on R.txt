@@ -1,0 +1,81 @@
+-What did I need to do?
+
+Extra dungeons:
+ Last map
+ Great Glacier
+  Snow boss
+  Gaia's cliff
+Restarted Disc 1 efforts
+Everyone's Limits should work fine enough.
+ Apparently, l missed some stats. NOW should be fine.
+ Add descriptions where missing.
+  All done?
+Mini status always inflicts and lowers attack
+ As such, Cornucopia is only cure and raises attack
+Round Square needs to be revisited. Prolly have to break the fourth wall.
+
+
+-Replaced Files:
+Kernel.bin
+LimtMenu.mnu
+Scene.bin
+md8brdg2.bsx	(Proud)
+del3.bsx	(Tifa)
+del12.bsx	(Tifa)
+
+-Field folder:
+(32 is the difference in movement orientation for L1/R1)
+ -Shifted Files (now they're just files l know l made really short):
+ semkin_3
+ semkin_4
+ semkin_8
+ coloin1
+ 4sbwy_22
+ canon_2
+ md8brdg2
+ del12
+ del3
+ blin63_t
+
+-Unexplained BS
+ md8_4 will randomly hang before Main???
+  testing a fix, if l can remember what l was going to test
+
+-DAT model data:
+Red	04 1E 16 __ 00 00 00 05
+Aeris	01 18 10 __ 00 00 00 02
+
+-DAT documentation from modding wiki:
+Structure
+Offset	Size	Data
+0	2	Size of section
+2	2	Model count
+4	8 * modelCount	Model loader data
+
+Model loader data
+Offset	Size	Data
+0	1	Face ID
+1	1	Number of bones
+2	1	Number of parts
+3	1	Number of animations
+4	1	Unknown
+5	1	Non Playable Character? (sometimes 1, also present in the PC model loader)
+6	1	Unknown
+7	1	Global model ID (to find out which BCX to use)
+
+-Materia 20 types
+ 0 Strength
+ 1 Vitality
+ 2 Magic
+ 3 Spirit
+ 4 Dexterity
+ 5 Luck
+ 6 Weapon Power
+ 7 Armor Power (physical defense only?)
+ 8 HP
+ 9 MP
+11 Cover
+18 Removes Attack command in Status, adds 4x-cut attacking self?
+19 Adds steal, absorb, and added cut to Attack with value of 90 (four bits)?
+21 Adds unusable glitched command?
+83 Counter Attack
