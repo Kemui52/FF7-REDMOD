@@ -22,6 +22,7 @@
     <CheatEntry>
       <ID>4</ID>
       <Description>"Alt pSX Pointer"</Description>
+      <LastState Value="3" RealAddress="0C502020"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"psxfin.exe"+0016D6D8</Address>
       <Offsets>
@@ -35,6 +36,7 @@
     <CheatEntry>
       <ID>7</ID>
       <Description>"pSX 1.13 RAM Pointer"</Description>
+      <LastState Value="3" RealAddress="0C502020"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"psxfin.exe"+0016D6E4</Address>
       <Offsets>
@@ -48,6 +50,7 @@
         <CheatEntry>
           <ID>14</ID>
           <Description>"Asking for Disc"</Description>
+          <LastState Value="0101" RealAddress="0C59F5A8"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+9D588</Address>
@@ -65,6 +68,7 @@
 07:Vincent
 08:Cid
 </DropDownList>
+          <LastState Value="00" Activated="1" RealAddress="0C59F3B1"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Byte</VariableType>
           <Address>+9D391</Address>
@@ -82,6 +86,7 @@
 07:Vincent
 08:Cid
 </DropDownList>
+              <LastState Value="04" Activated="1" RealAddress="0C59F3B2"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+1</Address>
@@ -99,6 +104,7 @@
 07:Vincent
 08:Cid
 </DropDownList>
+              <LastState Value="FF" RealAddress="0C59F3B3"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+2</Address>
@@ -108,6 +114,7 @@
         <CheatEntry>
           <ID>451</ID>
           <Description>"Player Field Model"</Description>
+          <LastState Value="00" RealAddress="0C59CC3E"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Byte</VariableType>
           <Address>+9AC1E</Address>
@@ -117,6 +124,7 @@
           <Description>"Walk During Dialogue"</Description>
           <DropDownList DisplayValueAsItem="1">0000:Can Walk
 </DropDownList>
+          <LastState Value="0000" RealAddress="0C59CC46"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+9AC26</Address>
@@ -124,12 +132,14 @@
         <CheatEntry>
           <ID>13</ID>
           <Description>"Room Teleport"</Description>
+          <LastState Value="173" RealAddress="0C59C07C"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+9A05C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>27</ID>
           <Description>"Music BPM"</Description>
+          <LastState Value="41DF" RealAddress="0C59C13E"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+9A11E</Address>
@@ -139,6 +149,7 @@
           <Description>"No Music"</Description>
           <DropDownList DisplayValueAsItem="1">0001:Active
 </DropDownList>
+          <LastState Value="0000" RealAddress="0C565018"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+62FF8</Address>
@@ -147,6 +158,7 @@
           <ID>26</ID>
           <Description>"Full Menu Access"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
@@ -155,6 +167,7 @@
               <Description>"1"</Description>
               <DropDownList DisplayValueAsItem="1">0B:Active
 </DropDownList>
+              <LastState Value="0A" RealAddress="0C59C0EE"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+9A0CE</Address>
@@ -164,6 +177,7 @@
               <Description>"2 MenusSelectable"</Description>
               <DropDownList DisplayValueAsItem="1">0B:Active
 </DropDownList>
+              <LastState Value="0A" RealAddress="0C59C0F5"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+9A0D5</Address>
@@ -173,6 +187,7 @@
               <Description>"3 MenusVisible"</Description>
               <DropDownList DisplayValueAsItem="1">FFFF:Active
 </DropDownList>
+              <LastState Value="02FF" RealAddress="0C59F2C4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+9D2A4</Address>
@@ -182,6 +197,7 @@
               <Description>"4 MenusDisabled"</Description>
               <DropDownList DisplayValueAsItem="1">0000:Active
 </DropDownList>
+              <LastState Value="0300" RealAddress="0C59F2C6"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+9D2A6</Address>
@@ -191,6 +207,7 @@
               <Description>"5"</Description>
               <DropDownList DisplayValueAsItem="1">0300:Active
 </DropDownList>
+              <LastState Value="0000" RealAddress="0C59F2F2"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+9D2D2</Address>
@@ -212,6 +229,7 @@
 0E01:Save Menu
 1200:Fade Out
 </DropDownList>
+          <LastState Value="0000" RealAddress="0C59CC14"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+9ABF4</Address>
@@ -219,6 +237,7 @@
             <CheatEntry>
               <ID>18</ID>
               <Description>"Variable"</Description>
+              <LastState Value="0000" RealAddress="0C59CC16"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+2</Address>
@@ -228,6 +247,7 @@
         <CheatEntry>
           <ID>19</ID>
           <Description>"Battle Modifier"</Description>
+          <LastState Value="0179" RealAddress="0C5727DC"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+707BC</Address>
@@ -235,6 +255,7 @@
         <CheatEntry>
           <ID>20</ID>
           <Description>"World Battle(?)"</Description>
+          <LastState Value="7EA8" RealAddress="0C618294"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+116274</Address>
@@ -245,6 +266,7 @@
           <DropDownList DisplayValueAsItem="1">0000:None
 7777:Many
 </DropDownList>
+          <LastState Value="00E8" RealAddress="0C57375C"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+7173C</Address>
@@ -255,6 +277,7 @@
           <DropDownList DisplayValueAsItem="1">0000:None
 FFFF:Many
 </DropDownList>
+          <LastState Value="30A7" RealAddress="0C61829C"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>+11627C</Address>
@@ -263,6 +286,7 @@ FFFF:Many
           <ID>69</ID>
           <Description>"Variable Info"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
@@ -270,21 +294,64 @@ FFFF:Many
               <ID>70</ID>
               <Description>"Coords (temp)"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>2 Bytes</VariableType>
               <Address>+0</Address>
               <CheatEntries>
                 <CheatEntry>
+                  <ID>592</ID>
+                  <Description>"Direction"</Description>
+                  <LastState Value="128" RealAddress="0C63A283"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+138263</Address>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>66</ID>
                   <Description>"X"</Description>
+                  <LastState Value="1054" RealAddress="0C63A284"/>
                   <ShowAsSigned>1</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
                   <Address>+138264</Address>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>590</ID>
+                  <Description>"Y"</Description>
+                  <LastState Value="-62" RealAddress="0C63A288"/>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>+138268</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>591</ID>
+                  <Description>"Z"</Description>
+                  <LastState Value="-10" RealAddress="0C63A28C"/>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>+13826C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>589</ID>
+                  <Description>"Model Size on Load"</Description>
+                  <LastState Value="0200" RealAddress="0C63A292"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+138272</Address>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>67</ID>
                   <Description>"Current Triangle"</Description>
+                  <LastState Value="3" RealAddress="0C576F36"/>
                   <VariableType>Byte</VariableType>
                   <Address>+74F16</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>588</ID>
+                  <Description>"Speed Scaling? Level Scale?"</Description>
+                  <LastState Value="0200" RealAddress="0C59CC24"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>+9AC04</Address>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -292,6 +359,7 @@ FFFF:Many
               <ID>71</ID>
               <Description>"Variables"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>2 Bytes</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -299,6 +367,7 @@ FFFF:Many
                   <ID>225</ID>
                   <Description>"[1][199]"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C59F36F"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9D368-19</Address>
@@ -307,6 +376,7 @@ FFFF:Many
                       <ID>226</ID>
                       <Description>"Touched Hot Spring"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C59F36F"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
@@ -318,6 +388,7 @@ FFFF:Many
                       <ID>228</ID>
                       <Description>"Gone Hot Spring Lady"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C59F36F"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
@@ -329,6 +400,7 @@ FFFF:Many
                       <ID>227</ID>
                       <Description>"Lost to Hot Spring Lady"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C59F36F"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
@@ -341,12 +413,14 @@ FFFF:Many
                 <CheatEntry>
                   <ID>142</ID>
                   <Description>"[1][224] (Sh.Bl. Max Floor Access)"</Description>
+                  <LastState Value="0" RealAddress="0C59F388"/>
                   <VariableType>Byte</VariableType>
                   <Address>+9D28B+DD</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>143</ID>
                   <Description>"[3][172]"</Description>
+                  <LastState Value="00" RealAddress="0C59F454"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9D391+A3</Address>
@@ -354,6 +428,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>144</ID>
                   <Description>"[3][179]"</Description>
+                  <LastState Value="00" RealAddress="0C59F45B"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9D391+AA</Address>
@@ -361,30 +436,35 @@ FFFF:Many
                 <CheatEntry>
                   <ID>100</ID>
                   <Description>"[4][80] (Battle Points)"</Description>
+                  <LastState Value="0" RealAddress="0C59F3F8"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+9D3D8</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>68</ID>
                   <Description>"[5][6]"</Description>
+                  <LastState Value="0" RealAddress="0C577E4A"/>
                   <VariableType>Byte</VariableType>
                   <Address>+75E2A</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>141</ID>
                   <Description>"[6][10]?"</Description>
+                  <LastState Value="0" RealAddress="0C577E4E"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+75E2E</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>140</ID>
                   <Description>"[6][12]"</Description>
+                  <LastState Value="0" RealAddress="0C577E50"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+75E30</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>129</ID>
                   <Description>"[15][131]"</Description>
+                  <LastState Value="00" RealAddress="0C59F72B"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9D70B</Address>
@@ -395,6 +475,7 @@ FFFF:Many
                       <DropDownList DisplayValueAsItem="1">0:Off
 1:On
 </DropDownList>
+                      <LastState Value="0" RealAddress="0C59F72B"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -407,12 +488,14 @@ FFFF:Many
                   <ID>203</ID>
                   <Description>"Countdown"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="3" RealAddress="0C502020"/>
                   <VariableType>Byte</VariableType>
                   <Address>+0</Address>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>208</ID>
                       <Description>"Real Time"</Description>
+                      <LastState Value="00000000" RealAddress="0C59F288"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+9D268</Address>
@@ -420,24 +503,28 @@ FFFF:Many
                     <CheatEntry>
                       <ID>204</ID>
                       <Description>"Hours"</Description>
+                      <LastState Value="0" RealAddress="0C59F2BC"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D29C</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>207</ID>
                       <Description>"Minutes"</Description>
+                      <LastState Value="0" RealAddress="0C59F2BD"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D29D</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>206</ID>
                       <Description>"Seconds"</Description>
+                      <LastState Value="0" RealAddress="0C59F2BE"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D29E</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>205</ID>
                       <Description>"Frames"</Description>
+                      <LastState Value="0" RealAddress="0C59F2BF"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D29F</Address>
                     </CheatEntry>
@@ -449,12 +536,14 @@ FFFF:Many
               <ID>97</ID>
               <Description>"Globals"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>Byte</VariableType>
               <Address>+0</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>111</ID>
                   <Description>"Game Moment"</Description>
+                  <LastState Value="159" RealAddress="0C59F2A8"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+9D288</Address>
                 </CheatEntry>
@@ -462,6 +551,7 @@ FFFF:Many
                   <ID>135</ID>
                   <Description>"Love Points"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="3" RealAddress="0C502020"/>
                   <VariableType>Byte</VariableType>
                   <Address>+0</Address>
                   <CheatEntries>
@@ -469,12 +559,14 @@ FFFF:Many
                       <ID>131</ID>
                       <Description>"Aeris"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2AB"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28B</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>136</ID>
                           <Description>"Red Mod Crushes"</Description>
+                          <LastState Value="0" RealAddress="0C59F2AB"/>
                           <VariableType>2 Bytes</VariableType>
                           <Address>+0</Address>
                         </CheatEntry>
@@ -484,12 +576,14 @@ FFFF:Many
                       <ID>132</ID>
                       <Description>"Tifa"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2AC"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28C</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>137</ID>
                           <Description>"Red Mod Crushes BE"</Description>
+                          <LastState Value="0" RealAddress="0C59F2AC"/>
                           <VariableType>Byte</VariableType>
                           <Address>+0</Address>
                         </CheatEntry>
@@ -499,12 +593,14 @@ FFFF:Many
                       <ID>133</ID>
                       <Description>"Yuffie"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2AD"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28D</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>139</ID>
                           <Description>"Red Mod New Flags"</Description>
+                          <LastState Value="00" RealAddress="0C59F2AD"/>
                           <ShowAsHex>1</ShowAsHex>
                           <VariableType>Byte</VariableType>
                           <Address>+0</Address>
@@ -513,6 +609,7 @@ FFFF:Many
                               <ID>145</ID>
                               <Description>"Sormr Fought"</Description>
                               <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                              <LastState Value="0" RealAddress="0C59F2AD"/>
                               <ShowAsHex>1</ShowAsHex>
                               <VariableType>Binary</VariableType>
                               <BitStart>0</BitStart>
@@ -524,6 +621,7 @@ FFFF:Many
                               <ID>229</ID>
                               <Description>"Great Glacier Timer On"</Description>
                               <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                              <LastState Value="0" RealAddress="0C59F2AD"/>
                               <ShowAsHex>1</ShowAsHex>
                               <VariableType>Binary</VariableType>
                               <BitStart>1</BitStart>
@@ -539,12 +637,14 @@ FFFF:Many
                       <ID>134</ID>
                       <Description>"Barret"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2AE"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28E</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>138</ID>
                           <Description>"Red Mod Unused 2"</Description>
+                          <LastState Value="0" RealAddress="0C59F2AE"/>
                           <VariableType>Byte</VariableType>
                           <Address>+0</Address>
                         </CheatEntry>
@@ -556,6 +656,7 @@ FFFF:Many
                   <ID>215</ID>
                   <Description>"BattleLove Points"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="3" RealAddress="0C502020"/>
                   <VariableType>Byte</VariableType>
                   <Address>+0</Address>
                   <CheatEntries>
@@ -563,12 +664,14 @@ FFFF:Many
                       <ID>216</ID>
                       <Description>"Aeris"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2F8"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28B+4D</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>217</ID>
                           <Description>"Red Mod Unused 1"</Description>
+                          <LastState Value="0" RealAddress="0C59F2F8"/>
                           <VariableType>2 Bytes</VariableType>
                           <Address>+0</Address>
                         </CheatEntry>
@@ -578,12 +681,14 @@ FFFF:Many
                       <ID>218</ID>
                       <Description>"Tifa"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2F9"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28C+4D</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>219</ID>
                           <Description>"Red Mod Unused 2"</Description>
+                          <LastState Value="0" RealAddress="0C59F2F9"/>
                           <VariableType>Byte</VariableType>
                           <Address>+0</Address>
                         </CheatEntry>
@@ -593,12 +698,14 @@ FFFF:Many
                       <ID>220</ID>
                       <Description>"Yuffie"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2FA"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28D+4D</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>221</ID>
                           <Description>"Red Mod Unused 3"</Description>
+                          <LastState Value="00" RealAddress="0C59F2FA"/>
                           <ShowAsHex>1</ShowAsHex>
                           <VariableType>Byte</VariableType>
                           <Address>+0</Address>
@@ -607,6 +714,7 @@ FFFF:Many
                               <ID>222</ID>
                               <Description>"bit"</Description>
                               <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                              <LastState Value="0" RealAddress="0C59F2FA"/>
                               <ShowAsHex>1</ShowAsHex>
                               <VariableType>Binary</VariableType>
                               <BitStart>0</BitStart>
@@ -622,12 +730,14 @@ FFFF:Many
                       <ID>223</ID>
                       <Description>"Barret"</Description>
                       <Options moManualExpandCollapse="1"/>
+                      <LastState Value="0" RealAddress="0C59F2FB"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D28E+4D</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>224</ID>
                           <Description>"Red Mod Unused 4"</Description>
+                          <LastState Value="0" RealAddress="0C59F2FB"/>
                           <VariableType>Byte</VariableType>
                           <Address>+0</Address>
                         </CheatEntry>
@@ -639,6 +749,7 @@ FFFF:Many
                   <ID>214</ID>
                   <Description>"Time Played"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="03" RealAddress="0C502020"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+0</Address>
@@ -646,6 +757,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>209</ID>
                       <Description>"Real Time"</Description>
+                      <LastState Value="000010BF" RealAddress="0C59F284"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+9D264</Address>
@@ -653,24 +765,28 @@ FFFF:Many
                     <CheatEntry>
                       <ID>210</ID>
                       <Description>"Hours"</Description>
+                      <LastState Value="1" RealAddress="0C59F2B8"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D298</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>211</ID>
                       <Description>"Minutes"</Description>
+                      <LastState Value="11" RealAddress="0C59F2B9"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D299</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>212</ID>
                       <Description>"Seconds"</Description>
+                      <LastState Value="27" RealAddress="0C59F2BA"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D29A</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>213</ID>
                       <Description>"Frames"</Description>
+                      <LastState Value="19" RealAddress="0C59F2BB"/>
                       <VariableType>Byte</VariableType>
                       <Address>+9D29B</Address>
                     </CheatEntry>
@@ -679,24 +795,28 @@ FFFF:Many
                 <CheatEntry>
                   <ID>112</ID>
                   <Description>"Gil"</Description>
+                  <LastState Value="1096" RealAddress="0C59F280"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>+9D260</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>464</ID>
                   <Description>"Steps"</Description>
+                  <LastState Value="1684" RealAddress="0C59F5AE"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+9D58E</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>99</ID>
                   <Description>"Battles Entered"</Description>
+                  <LastState Value="22" RealAddress="0C59F2C0"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+9D2A0</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>98</ID>
                   <Description>"Battles Escaped"</Description>
+                  <LastState Value="0" RealAddress="0C59F2C2"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+9D2A2</Address>
                 </CheatEntry>
@@ -704,60 +824,70 @@ FFFF:Many
                   <ID>101</ID>
                   <Description>"Kills"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="3" RealAddress="0C502020"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+0</Address>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>110</ID>
                       <Description>"Cloud"</Description>
+                      <LastState Value="0" RealAddress="0C59E77C"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C-84*4</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>109</ID>
                       <Description>"Barret"</Description>
+                      <LastState Value="0" RealAddress="0C59E800"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C-84*3</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>108</ID>
                       <Description>"Tifa"</Description>
+                      <LastState Value="0" RealAddress="0C59E884"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C-84*2</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>107</ID>
                       <Description>"Aeris"</Description>
+                      <LastState Value="0" RealAddress="0C59E908"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C-84*1</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>102</ID>
                       <Description>"Red XIII"</Description>
+                      <LastState Value="65" RealAddress="0C59E98C"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>103</ID>
                       <Description>"Yuffie"</Description>
+                      <LastState Value="0" RealAddress="0C59EA10"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C+84*1</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>104</ID>
                       <Description>"Cait Sith"</Description>
+                      <LastState Value="0" RealAddress="0C59EA94"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C+84*2</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>105</ID>
                       <Description>"Vincent"</Description>
+                      <LastState Value="0" RealAddress="0C59EB18"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C+84*3</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>106</ID>
                       <Description>"Cid"</Description>
+                      <LastState Value="0" RealAddress="0C59EB9C"/>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+9C96C+84*4</Address>
                     </CheatEntry>
@@ -767,12 +897,14 @@ FFFF:Many
                   <ID>456</ID>
                   <Description>"Key Items"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="3" RealAddress="0C502020"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+0</Address>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>455</ID>
                       <Description>"Key Items 1"</Description>
+                      <LastState Value="01" RealAddress="0C59F2E8"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+26</Address>
@@ -780,6 +912,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>462</ID>
                       <Description>"Key Items 2"</Description>
+                      <LastState Value="00" RealAddress="0C59F2E9"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+27</Address>
@@ -787,6 +920,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>461</ID>
                       <Description>"Key Items 3"</Description>
+                      <LastState Value="00" RealAddress="0C59F2EA"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+28</Address>
@@ -794,6 +928,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>460</ID>
                       <Description>"Key Items 4"</Description>
+                      <LastState Value="00" RealAddress="0C59F2EB"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+29</Address>
@@ -801,6 +936,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>459</ID>
                       <Description>"Key Items 5"</Description>
+                      <LastState Value="00" RealAddress="0C59F2EC"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+2A</Address>
@@ -808,6 +944,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>458</ID>
                       <Description>"Key Items 6"</Description>
+                      <LastState Value="00" RealAddress="0C59F2ED"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+2B</Address>
@@ -815,6 +952,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>457</ID>
                       <Description>"Key Items 7"</Description>
+                      <LastState Value="00" RealAddress="0C59F2EE"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+2C</Address>
@@ -822,6 +960,7 @@ FFFF:Many
                     <CheatEntry>
                       <ID>463</ID>
                       <Description>"Key Items 8"</Description>
+                      <LastState Value="00" RealAddress="0C59F2EF"/>
                       <ShowAsHex>1</ShowAsHex>
                       <VariableType>Byte</VariableType>
                       <Address>+9D2A2+2D</Address>
@@ -836,6 +975,7 @@ FFFF:Many
 02:Forced On
 03:Finger Only
 </DropDownList>
+                  <LastState Value="01" RealAddress="0C59F5C6"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9D58E+18</Address>
@@ -848,12 +988,14 @@ FFFF:Many
           <ID>179</ID>
           <Description>"Battle Setup"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
             <CheatEntry>
               <ID>8</ID>
               <Description>"Top Weapon Model"</Description>
+              <LastState Value="00" RealAddress="0C59FC7D"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+09DC5D</Address>
@@ -861,6 +1003,7 @@ FFFF:Many
             <CheatEntry>
               <ID>9</ID>
               <Description>"Middle Weapon Model"</Description>
+              <LastState Value="09" RealAddress="0C5A00BD"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+09E09D</Address>
@@ -868,6 +1011,7 @@ FFFF:Many
             <CheatEntry>
               <ID>10</ID>
               <Description>"Bottom Weapon Model"</Description>
+              <LastState Value="00" RealAddress="0C5A04FD"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+09E4DD</Address>
@@ -880,6 +1024,7 @@ FFFF:Many
 50:Airship
 56:Shinra HQ Bloody
 </DropDownList>
+              <LastState Value="03" RealAddress="0C665634"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+163614</Address>
@@ -887,6 +1032,7 @@ FFFF:Many
             <CheatEntry>
               <ID>149</ID>
               <Description>"Intro Camera"</Description>
+              <LastState Value="06" RealAddress="0C665F50"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+163F30</Address>
@@ -895,12 +1041,14 @@ FFFF:Many
               <ID>150</ID>
               <Description>"Battle Camera 1"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3941264106" RealAddress="0C665648"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+163628</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>152</ID>
                   <Description>"CamX (left)"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665648"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+0</Address>
@@ -908,6 +1056,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>153</ID>
                   <Description>"CamY (down)"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66564A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -915,6 +1064,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"CamZ (party)"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66564C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -922,6 +1072,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>155</ID>
                   <Description>"FocusX"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66564E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -929,6 +1080,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>156</ID>
                   <Description>"FocusY"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665650"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+8</Address>
@@ -936,6 +1088,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>157</ID>
                   <Description>"FocusZ"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665652"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+A</Address>
@@ -946,12 +1099,14 @@ FFFF:Many
               <ID>158</ID>
               <Description>"Battle Camera 2"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3941264106" RealAddress="0C665654"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+163628+C</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>159</ID>
                   <Description>"CamX"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665654"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+0</Address>
@@ -959,6 +1114,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>160</ID>
                   <Description>"CamY"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665656"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -966,6 +1122,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>161</ID>
                   <Description>"CamZ"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665658"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -973,6 +1130,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>162</ID>
                   <Description>"FocusX"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66565A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -980,6 +1138,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>163</ID>
                   <Description>"FocusY"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66565C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+8</Address>
@@ -987,6 +1146,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>164</ID>
                   <Description>"FocusZ"</Description>
+                  <LastState Value="C5C5" RealAddress="0C66565E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+A</Address>
@@ -997,12 +1157,14 @@ FFFF:Many
               <ID>165</ID>
               <Description>"Battle Camera 3"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="509291564" RealAddress="0C665660"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+163628+18</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>173</ID>
                   <Description>"CamX"</Description>
+                  <LastState Value="2C2C" RealAddress="0C665660"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+0</Address>
@@ -1010,6 +1172,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>174</ID>
                   <Description>"CamY"</Description>
+                  <LastState Value="1E5B" RealAddress="0C665662"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1017,6 +1180,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>175</ID>
                   <Description>"CamZ"</Description>
+                  <LastState Value="2C5B" RealAddress="0C665664"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1024,6 +1188,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>176</ID>
                   <Description>"FocusX"</Description>
+                  <LastState Value="C52C" RealAddress="0C665666"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1031,6 +1196,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>177</ID>
                   <Description>"FocusY"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665668"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+8</Address>
@@ -1038,6 +1204,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>178</ID>
                   <Description>"FocusZ"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66566A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+A</Address>
@@ -1048,12 +1215,14 @@ FFFF:Many
               <ID>166</ID>
               <Description>"Battle Camera 4"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3941264106" RealAddress="0C66566C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+163628+24</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>167</ID>
                   <Description>"CamX"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66566C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+0</Address>
@@ -1061,6 +1230,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>168</ID>
                   <Description>"CamY"</Description>
+                  <LastState Value="EAEA" RealAddress="0C66566E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1068,6 +1238,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>169</ID>
                   <Description>"CamZ"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665670"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1075,6 +1246,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>170</ID>
                   <Description>"FocusX"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665672"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1082,6 +1254,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>171</ID>
                   <Description>"FocusY"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665674"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+8</Address>
@@ -1089,6 +1262,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>172</ID>
                   <Description>"FocusZ"</Description>
+                  <LastState Value="EAEA" RealAddress="0C665676"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+A</Address>
@@ -1099,12 +1273,14 @@ FFFF:Many
               <ID>151</ID>
               <Description>"Enemy 1"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="0" RealAddress="0C5F9E28"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+F7E08</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>180</ID>
                   <Description>"PosX"</Description>
+                  <LastState Value="0000" RealAddress="0C5F9E2A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1112,6 +1288,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>181</ID>
                   <Description>"PosY"</Description>
+                  <LastState Value="DBB4" RealAddress="0C5F9E2C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1119,6 +1296,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>182</ID>
                   <Description>"PosZ"</Description>
+                  <LastState Value="020E" RealAddress="0C5F9E2E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1129,12 +1307,14 @@ FFFF:Many
               <ID>183</ID>
               <Description>"Enemy 2"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="34528196" RealAddress="0C5F9E38"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+F7E08+10</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>188</ID>
                   <Description>"PosX"</Description>
+                  <LastState Value="020E" RealAddress="0C5F9E3A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1142,6 +1322,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>189</ID>
                   <Description>"PosY"</Description>
+                  <LastState Value="028C" RealAddress="0C5F9E3C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1149,6 +1330,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>190</ID>
                   <Description>"PosZ"</Description>
+                  <LastState Value="E100" RealAddress="0C5F9E3E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1159,12 +1341,14 @@ FFFF:Many
               <ID>184</ID>
               <Description>"Enemy 3"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3774874252" RealAddress="0C5F9E48"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+F7E08+20</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>191</ID>
                   <Description>"PosX"</Description>
+                  <LastState Value="E100" RealAddress="0C5F9E4A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1172,6 +1356,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>192</ID>
                   <Description>"PosY"</Description>
+                  <LastState Value="0000" RealAddress="0C5F9E4C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1179,6 +1364,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>193</ID>
                   <Description>"PosZ"</Description>
+                  <LastState Value="0000" RealAddress="0C5F9E4E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1189,12 +1375,14 @@ FFFF:Many
               <ID>185</ID>
               <Description>"Enemy 4"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="0" RealAddress="0C5F9E58"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+F7E08+30</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>194</ID>
                   <Description>"PosX"</Description>
+                  <LastState Value="0000" RealAddress="0C5F9E5A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1202,6 +1390,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>195</ID>
                   <Description>"PosY"</Description>
+                  <LastState Value="0000" RealAddress="0C5F9E5C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1209,6 +1398,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>196</ID>
                   <Description>"PosZ"</Description>
+                  <LastState Value="0200" RealAddress="0C5F9E5E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1219,12 +1409,14 @@ FFFF:Many
               <ID>186</ID>
               <Description>"Enemy 5"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="33554432" RealAddress="0C5F9E68"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+F7E08+40</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>197</ID>
                   <Description>"PosX"</Description>
+                  <LastState Value="0200" RealAddress="0C5F9E6A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1232,6 +1424,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>198</ID>
                   <Description>"PosY"</Description>
+                  <LastState Value="028C" RealAddress="0C5F9E6C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1239,6 +1432,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>199</ID>
                   <Description>"PosZ"</Description>
+                  <LastState Value="E100" RealAddress="0C5F9E6E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1249,12 +1443,14 @@ FFFF:Many
               <ID>187</ID>
               <Description>"Enemy 6"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="1819078257" RealAddress="0C6656C8"/>
               <VariableType>4 Bytes</VariableType>
               <Address>+163658+50</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>200</ID>
                   <Description>"PosX"</Description>
+                  <LastState Value="6C6C" RealAddress="0C6656CA"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+2</Address>
@@ -1262,6 +1458,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>201</ID>
                   <Description>"PosY"</Description>
+                  <LastState Value="686C" RealAddress="0C6656CC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+4</Address>
@@ -1269,6 +1466,7 @@ FFFF:Many
                 <CheatEntry>
                   <ID>202</ID>
                   <Description>"PosZ"</Description>
+                  <LastState Value="2469" RealAddress="0C6656CE"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+6</Address>
@@ -1281,6 +1479,7 @@ FFFF:Many
           <ID>65</ID>
           <Description>"Battle Stuff"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
@@ -1291,6 +1490,7 @@ FFFF:Many
 01:Victory
 04:Instant Escape
 </DropDownList>
+              <LastState Value="0E" RealAddress="0C5FA3E6"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+F83C6</Address>
@@ -1310,6 +1510,7 @@ FFFF:Many
 09:6th Enemy
 FF:None
 </DropDownList>
+              <LastState Value="D2" RealAddress="0C6657B8"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+163798</Address>
@@ -1329,6 +1530,7 @@ FF:None
 09:6th Enemy
 FF:None
 </DropDownList>
+              <LastState Value="44" RealAddress="0C5E9A68"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+E7A48</Address>
@@ -1338,6 +1540,7 @@ FF:None
               <Description>"Limit Ready"</Description>
               <DropDownList DisplayValueAsItem="1">07:All Members?
 </DropDownList>
+              <LastState Value="84" RealAddress="0C665782"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+163762</Address>
@@ -1346,6 +1549,7 @@ FF:None
               <ID>446</ID>
               <Description>"Top Manip"</Description>
               <DropDownListLink>Player Controls</DropDownListLink>
+              <LastState Value="80" RealAddress="0C5F7E86"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+F5E66</Address>
@@ -1354,6 +1558,7 @@ FF:None
               <ID>447</ID>
               <Description>"Middle Manip"</Description>
               <DropDownListLink>Player Controls</DropDownListLink>
+              <LastState Value="00" RealAddress="0C5F7EBA"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+F5E66+34*1</Address>
@@ -1362,6 +1567,7 @@ FF:None
               <ID>448</ID>
               <Description>"Bottom Manip"</Description>
               <DropDownListLink>Player Controls</DropDownListLink>
+              <LastState Value="00" RealAddress="0C5F7EEE"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+F5E66+34*2</Address>
@@ -1370,12 +1576,14 @@ FF:None
               <ID>64</ID>
               <Description>"Size Modifier"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>2 Bytes</VariableType>
               <Address>+0</Address>
               <CheatEntries>
                 <CheatEntry>
                   <ID>50</ID>
                   <Description>"Top Size"</Description>
+                  <LastState Value="0000" RealAddress="0C65390A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+1518EA</Address>
@@ -1383,6 +1591,7 @@ FF:None
                 <CheatEntry>
                   <ID>51</ID>
                   <Description>"Middle Size"</Description>
+                  <LastState Value="6868" RealAddress="0C6544A6"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+152486</Address>
@@ -1390,6 +1599,7 @@ FF:None
                 <CheatEntry>
                   <ID>52</ID>
                   <Description>"Bottom Size"</Description>
+                  <LastState Value="0083" RealAddress="0C655042"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022</Address>
@@ -1397,6 +1607,7 @@ FF:None
                 <CheatEntry>
                   <ID>83</ID>
                   <Description>"1st Size"</Description>
+                  <LastState Value="0072" RealAddress="0C65677A"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022+B9C*2</Address>
@@ -1404,6 +1615,7 @@ FF:None
                 <CheatEntry>
                   <ID>84</ID>
                   <Description>"2nd Size"</Description>
+                  <LastState Value="0800" RealAddress="0C657316"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022+B9C*3</Address>
@@ -1411,6 +1623,7 @@ FF:None
                 <CheatEntry>
                   <ID>87</ID>
                   <Description>"3rd Size"</Description>
+                  <LastState Value="2218" RealAddress="0C657EB2"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022+B9C*4</Address>
@@ -1418,6 +1631,7 @@ FF:None
                 <CheatEntry>
                   <ID>88</ID>
                   <Description>"4th Size"</Description>
+                  <LastState Value="6C6C" RealAddress="0C658A4E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022+B9C*5</Address>
@@ -1425,6 +1639,7 @@ FF:None
                 <CheatEntry>
                   <ID>85</ID>
                   <Description>"5th Size"</Description>
+                  <LastState Value="2220" RealAddress="0C6595EA"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022+B9C*6</Address>
@@ -1432,6 +1647,7 @@ FF:None
                 <CheatEntry>
                   <ID>86</ID>
                   <Description>"6th Size"</Description>
+                  <LastState Value="7FE8" RealAddress="0C65A186"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+153022+B9C*7</Address>
@@ -1442,6 +1658,7 @@ FF:None
               <ID>236</ID>
               <Description>"Temp Buffs"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>2 Bytes</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -1451,6 +1668,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7BF8"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1462,6 +1680,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7C3C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1473,6 +1692,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7C80"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1484,6 +1704,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7D08"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1495,6 +1716,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7D4C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1506,6 +1728,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7D90"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1517,6 +1740,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="00 00 00 00" RealAddress="0C5F7DD4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1528,6 +1752,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="80 00 00 00" RealAddress="0C5F7E18"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1539,6 +1764,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">32 32 32 32:150%
 64 64 64 64:200%
 </DropDownList>
+                  <LastState Value="80 00 00 00" RealAddress="0C5F7E5C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>4</ByteLength>
@@ -1550,6 +1776,7 @@ FF:None
               <ID>445</ID>
               <Description>"ATB Gauge"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>2 Bytes</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -1559,6 +1786,7 @@ FF:None
                   <DropDownList DisplayValueAsItem="1">0000:Empty
 FFFF:Ready
 </DropDownList>
+                  <LastState Value="0000" RealAddress="0C5F7BDC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC-44*4</Address>
@@ -1566,6 +1794,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>443</ID>
                   <Description>"Middle ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7C20"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC-44*3</Address>
@@ -1573,6 +1802,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>444</ID>
                   <Description>"Bottom ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7C64"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC-44*2</Address>
@@ -1580,6 +1810,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>436</ID>
                   <Description>"1st ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7CEC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC</Address>
@@ -1587,6 +1818,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>437</ID>
                   <Description>"2nd ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7D30"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC+44*1</Address>
@@ -1594,6 +1826,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>438</ID>
                   <Description>"3rd ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7D74"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC+44*2</Address>
@@ -1601,6 +1834,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>439</ID>
                   <Description>"4th ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7DB8"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC+44*3</Address>
@@ -1608,6 +1842,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>441</ID>
                   <Description>"5th ATB"</Description>
+                  <LastState Value="0080" RealAddress="0C5F7DFC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC+44*4</Address>
@@ -1615,6 +1850,7 @@ FFFF:Ready
                 <CheatEntry>
                   <ID>440</ID>
                   <Description>"6th ATB"</Description>
+                  <LastState Value="0000" RealAddress="0C5F7E40"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F5CCC+44*5</Address>
@@ -1625,6 +1861,7 @@ FFFF:Ready
               <ID>238</ID>
               <Description>"Flags"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>2 Bytes</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -1632,6 +1869,7 @@ FFFF:Ready
                   <ID>237</ID>
                   <Description>"Top Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA404"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4</Address>
@@ -1640,6 +1878,7 @@ FFFF:Ready
                       <ID>239</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -1650,6 +1889,7 @@ FFFF:Ready
                       <ID>240</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -1660,6 +1900,7 @@ FFFF:Ready
                       <ID>241</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -1670,6 +1911,7 @@ FFFF:Ready
                       <ID>242</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -1680,6 +1922,7 @@ FFFF:Ready
                       <ID>243</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -1690,6 +1933,7 @@ FFFF:Ready
                       <ID>244</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -1700,6 +1944,7 @@ FFFF:Ready
                       <ID>245</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -1710,6 +1955,7 @@ FFFF:Ready
                       <ID>246</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA404"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -1722,6 +1968,7 @@ FFFF:Ready
                   <ID>247</ID>
                   <Description>"Top Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA405"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5</Address>
@@ -1730,6 +1977,7 @@ FFFF:Ready
                       <ID>248</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -1740,6 +1988,7 @@ FFFF:Ready
                       <ID>249</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -1750,6 +1999,7 @@ FFFF:Ready
                       <ID>250</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -1760,6 +2010,7 @@ FFFF:Ready
                       <ID>251</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -1770,6 +2021,7 @@ FFFF:Ready
                       <ID>252</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -1780,6 +2032,7 @@ FFFF:Ready
                       <ID>253</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -1790,6 +2043,7 @@ FFFF:Ready
                       <ID>254</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -1800,6 +2054,7 @@ FFFF:Ready
                       <ID>255</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA405"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -1812,6 +2067,7 @@ FFFF:Ready
                   <ID>256</ID>
                   <Description>"Top Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA406"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6</Address>
@@ -1820,6 +2076,7 @@ FFFF:Ready
                       <ID>259</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA406"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -1832,6 +2089,7 @@ FFFF:Ready
                   <ID>257</ID>
                   <Description>"Top Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA407"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7</Address>
@@ -1840,6 +2098,7 @@ FFFF:Ready
                       <ID>258</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA407"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -1852,6 +2111,7 @@ FFFF:Ready
                   <ID>282</ID>
                   <Description>"Middle Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="8E" RealAddress="0C5FA46C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*1</Address>
@@ -1860,6 +2120,7 @@ FFFF:Ready
                       <ID>283</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -1870,6 +2131,7 @@ FFFF:Ready
                       <ID>284</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -1880,6 +2142,7 @@ FFFF:Ready
                       <ID>285</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -1890,6 +2153,7 @@ FFFF:Ready
                       <ID>286</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -1900,6 +2164,7 @@ FFFF:Ready
                       <ID>287</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -1910,6 +2175,7 @@ FFFF:Ready
                       <ID>288</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -1920,6 +2186,7 @@ FFFF:Ready
                       <ID>289</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -1930,6 +2197,7 @@ FFFF:Ready
                       <ID>290</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA46C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -1942,6 +2210,7 @@ FFFF:Ready
                   <ID>291</ID>
                   <Description>"Middle Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="02" RealAddress="0C5FA46D"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*1</Address>
@@ -1950,6 +2219,7 @@ FFFF:Ready
                       <ID>292</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -1960,6 +2230,7 @@ FFFF:Ready
                       <ID>293</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -1970,6 +2241,7 @@ FFFF:Ready
                       <ID>294</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -1980,6 +2252,7 @@ FFFF:Ready
                       <ID>295</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -1990,6 +2263,7 @@ FFFF:Ready
                       <ID>296</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2000,6 +2274,7 @@ FFFF:Ready
                       <ID>297</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2010,6 +2285,7 @@ FFFF:Ready
                       <ID>298</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2020,6 +2296,7 @@ FFFF:Ready
                       <ID>299</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2032,6 +2309,7 @@ FFFF:Ready
                   <ID>300</ID>
                   <Description>"Middle Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA46E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*1</Address>
@@ -2040,6 +2318,7 @@ FFFF:Ready
                       <ID>301</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA46E"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2052,6 +2331,7 @@ FFFF:Ready
                   <ID>302</ID>
                   <Description>"Middle Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="E1" RealAddress="0C5FA46F"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*1</Address>
@@ -2060,6 +2340,7 @@ FFFF:Ready
                       <ID>303</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA46F"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2072,6 +2353,7 @@ FFFF:Ready
                   <ID>304</ID>
                   <Description>"Bottom Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA4D4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*2</Address>
@@ -2080,6 +2362,7 @@ FFFF:Ready
                       <ID>305</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2090,6 +2373,7 @@ FFFF:Ready
                       <ID>306</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2100,6 +2384,7 @@ FFFF:Ready
                       <ID>307</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2110,6 +2395,7 @@ FFFF:Ready
                       <ID>308</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2120,6 +2406,7 @@ FFFF:Ready
                       <ID>309</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2130,6 +2417,7 @@ FFFF:Ready
                       <ID>310</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2140,6 +2428,7 @@ FFFF:Ready
                       <ID>311</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2150,6 +2439,7 @@ FFFF:Ready
                       <ID>312</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2162,6 +2452,7 @@ FFFF:Ready
                   <ID>313</ID>
                   <Description>"Bottom Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA4D5"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*2</Address>
@@ -2170,6 +2461,7 @@ FFFF:Ready
                       <ID>314</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2180,6 +2472,7 @@ FFFF:Ready
                       <ID>315</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2190,6 +2483,7 @@ FFFF:Ready
                       <ID>316</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2200,6 +2494,7 @@ FFFF:Ready
                       <ID>317</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2210,6 +2505,7 @@ FFFF:Ready
                       <ID>318</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2220,6 +2516,7 @@ FFFF:Ready
                       <ID>319</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2230,6 +2527,7 @@ FFFF:Ready
                       <ID>320</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2240,6 +2538,7 @@ FFFF:Ready
                       <ID>321</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2252,6 +2551,7 @@ FFFF:Ready
                   <ID>322</ID>
                   <Description>"Bottom Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA4D6"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*2</Address>
@@ -2260,6 +2560,7 @@ FFFF:Ready
                       <ID>323</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D6"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2272,6 +2573,7 @@ FFFF:Ready
                   <ID>324</ID>
                   <Description>"Bottom Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="02" RealAddress="0C5FA4D7"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*2</Address>
@@ -2280,6 +2582,7 @@ FFFF:Ready
                       <ID>325</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA4D7"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2292,6 +2595,7 @@ FFFF:Ready
                   <ID>326</ID>
                   <Description>"1st Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="8E" RealAddress="0C5FA5A4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*4</Address>
@@ -2300,6 +2604,7 @@ FFFF:Ready
                       <ID>327</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2310,6 +2615,7 @@ FFFF:Ready
                       <ID>328</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2320,6 +2626,7 @@ FFFF:Ready
                       <ID>329</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2330,6 +2637,7 @@ FFFF:Ready
                       <ID>330</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2340,6 +2648,7 @@ FFFF:Ready
                       <ID>331</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2350,6 +2659,7 @@ FFFF:Ready
                       <ID>332</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2360,6 +2670,7 @@ FFFF:Ready
                       <ID>333</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2370,6 +2681,7 @@ FFFF:Ready
                       <ID>334</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA5A4"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2382,6 +2694,7 @@ FFFF:Ready
                   <ID>335</ID>
                   <Description>"1st Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="02" RealAddress="0C5FA5A5"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*4</Address>
@@ -2390,6 +2703,7 @@ FFFF:Ready
                       <ID>336</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2400,6 +2714,7 @@ FFFF:Ready
                       <ID>337</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2410,6 +2725,7 @@ FFFF:Ready
                       <ID>338</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2420,6 +2736,7 @@ FFFF:Ready
                       <ID>339</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2430,6 +2747,7 @@ FFFF:Ready
                       <ID>340</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2440,6 +2758,7 @@ FFFF:Ready
                       <ID>341</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2450,6 +2769,7 @@ FFFF:Ready
                       <ID>342</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2460,6 +2780,7 @@ FFFF:Ready
                       <ID>343</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A5"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2472,6 +2793,7 @@ FFFF:Ready
                   <ID>344</ID>
                   <Description>"1st Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA5A6"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*4</Address>
@@ -2480,6 +2802,7 @@ FFFF:Ready
                       <ID>345</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA5A6"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2492,6 +2815,7 @@ FFFF:Ready
                   <ID>346</ID>
                   <Description>"1st Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="E1" RealAddress="0C5FA5A7"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*4</Address>
@@ -2500,6 +2824,7 @@ FFFF:Ready
                       <ID>347</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA5A7"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2512,6 +2837,7 @@ FFFF:Ready
                   <ID>260</ID>
                   <Description>"2nd Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA60C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*5</Address>
@@ -2520,6 +2846,7 @@ FFFF:Ready
                       <ID>261</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2530,6 +2857,7 @@ FFFF:Ready
                       <ID>262</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2540,6 +2868,7 @@ FFFF:Ready
                       <ID>263</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2550,6 +2879,7 @@ FFFF:Ready
                       <ID>264</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2560,6 +2890,7 @@ FFFF:Ready
                       <ID>265</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2570,6 +2901,7 @@ FFFF:Ready
                       <ID>266</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2580,6 +2912,7 @@ FFFF:Ready
                       <ID>267</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2590,6 +2923,7 @@ FFFF:Ready
                       <ID>268</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60C"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2602,6 +2936,7 @@ FFFF:Ready
                   <ID>269</ID>
                   <Description>"2nd Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA60D"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*5</Address>
@@ -2610,6 +2945,7 @@ FFFF:Ready
                       <ID>270</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2620,6 +2956,7 @@ FFFF:Ready
                       <ID>271</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2630,6 +2967,7 @@ FFFF:Ready
                       <ID>272</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2640,6 +2978,7 @@ FFFF:Ready
                       <ID>273</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2650,6 +2989,7 @@ FFFF:Ready
                       <ID>274</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2660,6 +3000,7 @@ FFFF:Ready
                       <ID>275</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2670,6 +3011,7 @@ FFFF:Ready
                       <ID>276</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2680,6 +3022,7 @@ FFFF:Ready
                       <ID>277</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60D"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2692,6 +3035,7 @@ FFFF:Ready
                   <ID>278</ID>
                   <Description>"2nd Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA60E"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*5</Address>
@@ -2700,6 +3044,7 @@ FFFF:Ready
                       <ID>279</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60E"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2712,6 +3057,7 @@ FFFF:Ready
                   <ID>280</ID>
                   <Description>"2nd Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="02" RealAddress="0C5FA60F"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*5</Address>
@@ -2720,6 +3066,7 @@ FFFF:Ready
                       <ID>281</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA60F"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2732,6 +3079,7 @@ FFFF:Ready
                   <ID>348</ID>
                   <Description>"3rd Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA674"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*6</Address>
@@ -2740,6 +3088,7 @@ FFFF:Ready
                       <ID>349</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2750,6 +3099,7 @@ FFFF:Ready
                       <ID>350</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2760,6 +3110,7 @@ FFFF:Ready
                       <ID>351</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2770,6 +3121,7 @@ FFFF:Ready
                       <ID>352</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2780,6 +3132,7 @@ FFFF:Ready
                       <ID>353</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2790,6 +3143,7 @@ FFFF:Ready
                       <ID>354</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2800,6 +3154,7 @@ FFFF:Ready
                       <ID>355</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2810,6 +3165,7 @@ FFFF:Ready
                       <ID>356</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA674"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2822,6 +3178,7 @@ FFFF:Ready
                   <ID>357</ID>
                   <Description>"3rd Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA675"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*6</Address>
@@ -2830,6 +3187,7 @@ FFFF:Ready
                       <ID>358</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2840,6 +3198,7 @@ FFFF:Ready
                       <ID>359</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2850,6 +3209,7 @@ FFFF:Ready
                       <ID>360</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2860,6 +3220,7 @@ FFFF:Ready
                       <ID>361</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -2870,6 +3231,7 @@ FFFF:Ready
                       <ID>362</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -2880,6 +3242,7 @@ FFFF:Ready
                       <ID>363</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -2890,6 +3253,7 @@ FFFF:Ready
                       <ID>364</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -2900,6 +3264,7 @@ FFFF:Ready
                       <ID>365</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA675"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -2912,6 +3277,7 @@ FFFF:Ready
                   <ID>366</ID>
                   <Description>"3rd Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA676"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*6</Address>
@@ -2920,6 +3286,7 @@ FFFF:Ready
                       <ID>367</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA676"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2932,6 +3299,7 @@ FFFF:Ready
                   <ID>368</ID>
                   <Description>"3rd Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA677"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*6</Address>
@@ -2940,6 +3308,7 @@ FFFF:Ready
                       <ID>369</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA677"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2952,6 +3321,7 @@ FFFF:Ready
                   <ID>370</ID>
                   <Description>"4th Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="8E" RealAddress="0C5FA6DC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*7</Address>
@@ -2960,6 +3330,7 @@ FFFF:Ready
                       <ID>371</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -2970,6 +3341,7 @@ FFFF:Ready
                       <ID>372</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -2980,6 +3352,7 @@ FFFF:Ready
                       <ID>373</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -2990,6 +3363,7 @@ FFFF:Ready
                       <ID>374</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -3000,6 +3374,7 @@ FFFF:Ready
                       <ID>375</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -3010,6 +3385,7 @@ FFFF:Ready
                       <ID>376</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -3020,6 +3396,7 @@ FFFF:Ready
                       <ID>377</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -3030,6 +3407,7 @@ FFFF:Ready
                       <ID>378</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA6DC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -3042,6 +3420,7 @@ FFFF:Ready
                   <ID>379</ID>
                   <Description>"4th Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="02" RealAddress="0C5FA6DD"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*7</Address>
@@ -3050,6 +3429,7 @@ FFFF:Ready
                       <ID>380</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3060,6 +3440,7 @@ FFFF:Ready
                       <ID>381</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -3070,6 +3451,7 @@ FFFF:Ready
                       <ID>382</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -3080,6 +3462,7 @@ FFFF:Ready
                       <ID>383</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -3090,6 +3473,7 @@ FFFF:Ready
                       <ID>384</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -3100,6 +3484,7 @@ FFFF:Ready
                       <ID>385</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -3110,6 +3495,7 @@ FFFF:Ready
                       <ID>386</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -3120,6 +3506,7 @@ FFFF:Ready
                       <ID>387</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -3132,6 +3519,7 @@ FFFF:Ready
                   <ID>388</ID>
                   <Description>"4th Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA6DE"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*7</Address>
@@ -3140,6 +3528,7 @@ FFFF:Ready
                       <ID>389</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA6DE"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3152,6 +3541,7 @@ FFFF:Ready
                   <ID>390</ID>
                   <Description>"4th Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="E1" RealAddress="0C5FA6DF"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*7</Address>
@@ -3160,6 +3550,7 @@ FFFF:Ready
                       <ID>391</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA6DF"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3172,6 +3563,7 @@ FFFF:Ready
                   <ID>392</ID>
                   <Description>"5th Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="D4" RealAddress="0C5FA744"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*8</Address>
@@ -3180,6 +3572,7 @@ FFFF:Ready
                       <ID>393</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3190,6 +3583,7 @@ FFFF:Ready
                       <ID>394</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -3200,6 +3594,7 @@ FFFF:Ready
                       <ID>395</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -3210,6 +3605,7 @@ FFFF:Ready
                       <ID>396</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -3220,6 +3616,7 @@ FFFF:Ready
                       <ID>397</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -3230,6 +3627,7 @@ FFFF:Ready
                       <ID>398</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -3240,6 +3638,7 @@ FFFF:Ready
                       <ID>399</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -3250,6 +3649,7 @@ FFFF:Ready
                       <ID>400</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA744"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -3262,6 +3662,7 @@ FFFF:Ready
                   <ID>401</ID>
                   <Description>"5th Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="E7" RealAddress="0C5FA745"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*8</Address>
@@ -3270,6 +3671,7 @@ FFFF:Ready
                       <ID>402</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3280,6 +3682,7 @@ FFFF:Ready
                       <ID>403</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -3290,6 +3693,7 @@ FFFF:Ready
                       <ID>404</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -3300,6 +3704,7 @@ FFFF:Ready
                       <ID>405</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -3310,6 +3715,7 @@ FFFF:Ready
                       <ID>406</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -3320,6 +3726,7 @@ FFFF:Ready
                       <ID>407</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -3330,6 +3737,7 @@ FFFF:Ready
                       <ID>408</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -3340,6 +3748,7 @@ FFFF:Ready
                       <ID>409</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="1" RealAddress="0C5FA745"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -3352,6 +3761,7 @@ FFFF:Ready
                   <ID>410</ID>
                   <Description>"5th Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="0E" RealAddress="0C5FA746"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*8</Address>
@@ -3360,6 +3770,7 @@ FFFF:Ready
                       <ID>411</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA746"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3372,6 +3783,7 @@ FFFF:Ready
                   <ID>412</ID>
                   <Description>"5th Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="02" RealAddress="0C5FA747"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*8</Address>
@@ -3380,6 +3792,7 @@ FFFF:Ready
                       <ID>413</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA747"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3392,6 +3805,7 @@ FFFF:Ready
                   <ID>414</ID>
                   <Description>"6th Set 1"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA7AC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E4+68*9</Address>
@@ -3400,6 +3814,7 @@ FFFF:Ready
                       <ID>415</ID>
                       <Description>"Visible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3410,6 +3825,7 @@ FFFF:Ready
                       <ID>416</ID>
                       <Description>"Side Attack"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -3420,6 +3836,7 @@ FFFF:Ready
                       <ID>417</ID>
                       <Description>"Unknown4"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -3430,6 +3847,7 @@ FFFF:Ready
                       <ID>418</ID>
                       <Description>"Targetable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -3440,6 +3858,7 @@ FFFF:Ready
                       <ID>419</ID>
                       <Description>"Mainscript"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -3450,6 +3869,7 @@ FFFF:Ready
                       <ID>420</ID>
                       <Description>"Defending"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -3460,6 +3880,7 @@ FFFF:Ready
                       <ID>421</ID>
                       <Description>"Back Row"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -3470,6 +3891,7 @@ FFFF:Ready
                       <ID>422</ID>
                       <Description>"Facing"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AC"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -3482,6 +3904,7 @@ FFFF:Ready
                   <ID>423</ID>
                   <Description>"6th Set 2"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA7AD"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E5+68*9</Address>
@@ -3490,6 +3913,7 @@ FFFF:Ready
                       <ID>424</ID>
                       <Description>"Phys Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3500,6 +3924,7 @@ FFFF:Ready
                       <ID>425</ID>
                       <Description>"Mag Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
@@ -3510,6 +3935,7 @@ FFFF:Ready
                       <ID>426</ID>
                       <Description>"Status Immune"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
@@ -3520,6 +3946,7 @@ FFFF:Ready
                       <ID>427</ID>
                       <Description>"Unreachable"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
@@ -3530,6 +3957,7 @@ FFFF:Ready
                       <ID>428</ID>
                       <Description>"No Death Anim"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
@@ -3540,6 +3968,7 @@ FFFF:Ready
                       <ID>429</ID>
                       <Description>"Dead"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
@@ -3550,6 +3979,7 @@ FFFF:Ready
                       <ID>430</ID>
                       <Description>"Intangible"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
@@ -3560,6 +3990,7 @@ FFFF:Ready
                       <ID>431</ID>
                       <Description>"Unknown7"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AD"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
@@ -3572,6 +4003,7 @@ FFFF:Ready
                   <ID>432</ID>
                   <Description>"6th Set 3"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA7AE"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E6+68*9</Address>
@@ -3580,6 +4012,7 @@ FFFF:Ready
                       <ID>433</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AE"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3592,6 +4025,7 @@ FFFF:Ready
                   <ID>434</ID>
                   <Description>"6th Set 4"</Description>
                   <Options moManualExpandCollapse="1"/>
+                  <LastState Value="00" RealAddress="0C5FA7AF"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+F83E7+68*9</Address>
@@ -3600,6 +4034,7 @@ FFFF:Ready
                       <ID>435</ID>
                       <Description>"Unknown0"</Description>
                       <DropDownListLink>BOOLEAN VALUES</DropDownListLink>
+                      <LastState Value="0" RealAddress="0C5FA7AF"/>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
@@ -3616,12 +4051,14 @@ FFFF:Ready
           <ID>76</ID>
           <Description>"Spell Info"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
             <CheatEntry>
               <ID>72</ID>
               <Description>"Spell Anim?"</Description>
+              <LastState Value="9DE9" RealAddress="0C6657BA"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+16379A</Address>
@@ -3629,6 +4066,7 @@ FFFF:Ready
             <CheatEntry>
               <ID>73</ID>
               <Description>"Title Pointer"</Description>
+              <LastState Value="B1E4" RealAddress="0C6657BC"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+16379C</Address>
@@ -3636,6 +4074,7 @@ FFFF:Ready
             <CheatEntry>
               <ID>74</ID>
               <Description>"Title"</Description>
+              <LastState Value="E4E4" RealAddress="0C6657BE"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+16379E</Address>
@@ -3643,6 +4082,7 @@ FFFF:Ready
             <CheatEntry>
               <ID>75</ID>
               <Description>"Camera"</Description>
+              <LastState Value="E5D3" RealAddress="0C6657C0"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+1637A0</Address>
@@ -3650,6 +4090,7 @@ FFFF:Ready
             <CheatEntry>
               <ID>80</ID>
               <Description>"Cure Spell Anim"</Description>
+              <LastState Value="00" RealAddress="0C5728F1"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+708D1</Address>
@@ -3657,6 +4098,7 @@ FFFF:Ready
             <CheatEntry>
               <ID>81</ID>
               <Description>"Item Spell Anim"</Description>
+              <LastState Value="00" RealAddress="0C5742F9"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+722D9</Address>
@@ -3667,12 +4109,14 @@ FFFF:Ready
           <ID>452</ID>
           <Description>"World Map Stuff"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
             <CheatEntry>
               <ID>449</ID>
               <Description>"World Map Controlling"</Description>
+              <LastState Value="00000000" RealAddress="0C60CD60"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>4 Bytes</VariableType>
               <Address>+10AD40</Address>
@@ -3682,6 +4126,7 @@ FFFF:Ready
               <Description>"World Map Big"</Description>
               <DropDownList DisplayValueAsItem="1">FFFF:Active
 </DropDownList>
+              <LastState Value="566C" RealAddress="0C5E7690"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+E5670</Address>
@@ -3692,6 +4137,7 @@ FFFF:Ready
               <DropDownList DisplayValueAsItem="1">0000:Off
 0001:On
 </DropDownList>
+              <LastState Value="562C" RealAddress="0C5E7650"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+E5630</Address>
@@ -3702,6 +4148,7 @@ FFFF:Ready
               <DropDownList DisplayValueAsItem="1">0006:On
 0008:Off
 </DropDownList>
+              <LastState Value="2463" RealAddress="0C5CA51E"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+C84FE</Address>
@@ -3712,6 +4159,7 @@ FFFF:Ready
               <DropDownList DisplayValueAsItem="1">0000:Off
 0002:On
 </DropDownList>
+              <LastState Value="0002" RealAddress="0C5CA51C"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>2 Bytes</VariableType>
               <Address>+C84FC</Address>
@@ -3722,6 +4170,7 @@ FFFF:Ready
           <ID>114</ID>
           <Description>"World Map Objects"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>2 Bytes</VariableType>
           <Address>+0</Address>
           <CheatEntries>
@@ -3760,6 +4209,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60BEC4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*8</Address>
@@ -3799,6 +4249,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60BFA4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*7</Address>
@@ -3838,6 +4289,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C084"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*6</Address>
@@ -3877,6 +4329,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C164"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*5</Address>
@@ -3916,6 +4369,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C244"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*4</Address>
@@ -3955,6 +4409,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C324"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*3</Address>
@@ -3994,6 +4449,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C404"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*2</Address>
@@ -4005,6 +4461,7 @@ FFFF:Ready
 02:Ground Standing
 82:Air Standing
 </DropDownList>
+                  <LastState Value="00" RealAddress="0C60C405"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+1</Address>
@@ -4046,6 +4503,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C4E4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4-E0*1</Address>
@@ -4057,6 +4515,7 @@ FFFF:Ready
 02:Ground Standing
 82:Air Standing
 </DropDownList>
+                  <LastState Value="00" RealAddress="0C60C4E5"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+1</Address>
@@ -4098,6 +4557,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C5C4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A5A4</Address>
@@ -4109,6 +4569,7 @@ FFFF:Ready
 02:Ground Standing
 82:Air Standing
 </DropDownList>
+                  <LastState Value="00" RealAddress="0C60C5C5"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+1</Address>
@@ -4120,6 +4581,7 @@ FFFF:Ready
 20EF:Normal
 22E0:Diamond EQ
 </DropDownList>
+                  <LastState Value="0000" RealAddress="0C60C5BA"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>-A</Address>
@@ -4161,6 +4623,7 @@ FFFF:Ready
 1D:Ruby Weapon
 1E:Emerald Weapon
 </DropDownList>
+              <LastState Value="00" RealAddress="0C60C6A4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Byte</VariableType>
               <Address>+10A684</Address>
@@ -4172,6 +4635,7 @@ FFFF:Ready
 02:Ground Standing
 82:Air Standing
 </DropDownList>
+                  <LastState Value="00" RealAddress="0C60C6A5"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+1</Address>
@@ -4184,6 +4648,7 @@ FFFF:Ready
           <ID>34</ID>
           <Description>"Sephiroth in Party"</Description>
           <Options moManualExpandCollapse="1"/>
+          <LastState Value="3" RealAddress="0C502020"/>
           <VariableType>Byte</VariableType>
           <Address>+0</Address>
           <CheatEntries>
@@ -4191,6 +4656,7 @@ FFFF:Ready
               <ID>35</ID>
               <Description>"Slot 1"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>Byte</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -4199,6 +4665,7 @@ FFFF:Ready
                   <Description>"1"</Description>
                   <DropDownList DisplayValueAsItem="1">0A:Active
 </DropDownList>
+                  <LastState Value="04" RealAddress="0C59EBFC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9CBDC</Address>
@@ -4208,6 +4675,7 @@ FFFF:Ready
                   <Description>"2"</Description>
                   <DropDownList DisplayValueAsItem="1">0A:Active
 </DropDownList>
+                  <LastState Value="0A" RealAddress="0C59EAF4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9CAD4</Address>
@@ -4218,6 +4686,7 @@ FFFF:Ready
                   <DropDownList DisplayValueAsItem="1">0048:Active
 00C8:Alt Method?
 </DropDownList>
+                  <LastState Value="0000" RealAddress="0C5FA404"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F83E4</Address>
@@ -4228,6 +4697,7 @@ FFFF:Ready
               <ID>41</ID>
               <Description>"Slot 2"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>Byte</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -4236,6 +4706,7 @@ FFFF:Ready
                   <Description>"1"</Description>
                   <DropDownList DisplayValueAsItem="1">0A:Active
 </DropDownList>
+                  <LastState Value="FF" RealAddress="0C59EBFD"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9CBDD</Address>
@@ -4245,6 +4716,7 @@ FFFF:Ready
                   <Description>"2"</Description>
                   <DropDownList DisplayValueAsItem="1">0A:Active
 </DropDownList>
+                  <LastState Value="0A" RealAddress="0C59EAF4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9CAD4</Address>
@@ -4255,6 +4727,7 @@ FFFF:Ready
                   <DropDownList DisplayValueAsItem="1">0048:Active
 00C8:Alt Method?
 </DropDownList>
+                  <LastState Value="028E" RealAddress="0C5FA46C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F844C</Address>
@@ -4265,6 +4738,7 @@ FFFF:Ready
               <ID>45</ID>
               <Description>"Slot 3"</Description>
               <Options moManualExpandCollapse="1"/>
+              <LastState Value="3" RealAddress="0C502020"/>
               <VariableType>Byte</VariableType>
               <Address>+0</Address>
               <CheatEntries>
@@ -4273,6 +4747,7 @@ FFFF:Ready
                   <Description>"1"</Description>
                   <DropDownList DisplayValueAsItem="1">0A:Active
 </DropDownList>
+                  <LastState Value="FF" RealAddress="0C59EBFE"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9CBDE</Address>
@@ -4282,6 +4757,7 @@ FFFF:Ready
                   <Description>"2"</Description>
                   <DropDownList DisplayValueAsItem="1">0A:Active
 </DropDownList>
+                  <LastState Value="0A" RealAddress="0C59EAF4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>+9CAD4</Address>
@@ -4292,6 +4768,7 @@ FFFF:Ready
                   <DropDownList DisplayValueAsItem="1">0048:Active
 00C8:Alt Method?
 </DropDownList>
+                  <LastState Value="0000" RealAddress="0C5FA4D4"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>2 Bytes</VariableType>
                   <Address>+F84B4</Address>
@@ -4374,7 +4851,7 @@ FFFF:Ready
     </SymbolEntry>
   </UserdefinedSymbols>
   <Comments>Codes found by Kemui52 are:
--Pointers for pSX RAM.
+-Pointers for pSXfin/ePSXe RAM.
 -Locations for variables.
 -Everything under Battle Setup.
 Most other codes found by folks on GameHacking.org

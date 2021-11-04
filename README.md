@@ -1,6 +1,6 @@
 # FF7 Red Mod
 
-A mod for the PS1 version of FF7 that focuses on Red XIII and macro gameplay. Red replaces Cloud in all field maps, the Transform limit break from Cait Sith's slots is available as a selectable limit, and as a bonus, a couple field maps have a quaint rampage mode. Can be played on Disc 3 from a premade save (mostly complete) or a new game from Disc 1 (in progress).
+A mod for the PS1 version of FF7 that focuses on Red XIII and macro-themed gameplay. Travel through maps as Red instead of Cloud, and make use of size-changing powers in battle. Use overpowered equipment on Disc 3 from a premade save (mostly complete) or start a new game from Disc 1 (in progress) to tackle a slightly challenging solo run of the original game sequences.
 
 ## Current Progress
 
@@ -10,7 +10,7 @@ A mod for the PS1 version of FF7 that focuses on Red XIII and macro gameplay. Re
 
 ## How to Play
 
-1) Use xdelta from the Releases section to apply a patch to the matching US bin/cue version of FF7.
+1) Use xdelta from the Releases section to apply a patch to the matching US bin/cue version of FF7. The patch is not as up to date as the source files, but is much simpler to install.
 
 (Alternatively, you can add the all caps directory folders to an extracted FF7 filesystem and build it with PSXImager. Just remember to run "fixup" from ff7tools to allegedly fix the LBA offsets.)
 
@@ -20,9 +20,9 @@ A mod for the PS1 version of FF7 that focuses on Red XIII and macro gameplay. Re
 
 3) If playing Disc 3, use the memory card save in the `!misc` folder. If playing Disc 1, start a new game. You can use the Black Chocobo save editor to transfer the Disc 3 save to another memory card file if you need to.
 
-## What's New?
+## What's Changed?
 
-The Transform limit break has been added to Red XIII, Aeris, Yuffie, and Cait Sith. The limit breaks are tricky to reorganize, so they have been changed up to mitigate any glitches from adding the new ability.
+The Transform limit break has been added to Red XIII, Aeris, Yuffie, and Cait Sith. The limit breaks are tricky to reorganize, so they have been changed up to mitigate any glitches due to inserting the new ability. This means Limit Level 4 is non-functional, but instead some levels have three limit breaks to choose from!
 
 Vincent's Galian Beast is controllable, but you can only attack with the one limit attack or a magic attack. It is recommended to use the new Limit materia for unlimited limit breaks. The other forms haven't been attempted yet and the game might not allow me to.
 
@@ -32,13 +32,21 @@ Mini spell has 100% hit rate and lowers magic attack power. As such, Cornucopia 
 
 Red XIII is controllable in the Round Square ride instead of Cloud. Tail wags!
 
-Temple of the Ancients can be re-explored on Disc 3.
+Temple of the Ancients can be re-explored on Disc 3 and its dragon can be re-fought.
 
 Ho-Chu has been added to the end of the Ancient Forest as a miniboss.
 
 And more I'm forgetting.
 
 ## Known Issues
+
+The tunnel after the first bombing mission crashes randomly for some reason. Still trying to debug it.
+
+The lighting on certain characters is wonky because Red XIII has more model parts than expected. I try to mitigate it by hiding parts of unused models, but it is not always possible. Sometimes, Red himself has the wonky lighting.
+
+Still have Cloud on the world map. Cannot be changed until someone wants to make a program for converting model and animation formats.
+
+Cait Sith's Slots limit break is broken due to the game being very picky about the order of limits. It won't crash as is, but please just stick to his Limit Level 1.
 
 Round Square was redesigned before I came up with the Second Member code trick, so I'm gonna have to wrack my brain over how to account for both a solo and full party.
 
