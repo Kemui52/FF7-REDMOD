@@ -13,6 +13,7 @@ Everyone's Limits should work fine enough.
 Mini status always inflicts and lowers attack
  As such, Cornucopia is only cure and raises attack
 Round Square needs to be revisited. Prolly have to break the fourth wall.
+Chocobo Square door can be opened, huh? Ought to work that in considering what I did to Battle
 
 
 -Replaced Files:
