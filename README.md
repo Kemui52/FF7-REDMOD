@@ -26,11 +26,11 @@ The Transform limit break has been added to Red XIII, Aeris, Yuffie, and Cait Si
 
 Vincent's Galian Beast is controllable, but you can only attack with the one limit attack or a magic attack. It is recommended to use the new Limit materia for unlimited limit breaks. The other forms haven't been attempted yet and the game might not allow me to.
 
-Some new materia! [Limit] grants limitless limit breaks, while [Flash], [4x Cut], and [Throw] have been added as individual materia. (I should prolly make their counterparts individual, too)
+Some new materia! [Limit] grants limitless limit breaks, while [Flash], [4x Cut], and [Throw] have been added as individual materia.
 
 Mini spell has 100% hit rate and lowers magic attack power. As such, Cornucopia is changed to only cure Mini and raises attack back up. (Actually, it always raises attack even if it fails, but why would you exploit this when I give you better ways to buff your attack?)
 
-Red XIII is controllable in the Round Square ride instead of Cloud. Tail wags!
+Red XIII is controllable in the Round Square ride instead of Cloud. Tail wags! (My new party leader fix conflicts with this, though, so I'll have to redo this)
 
 Temple of the Ancients can be re-explored on Disc 3 and its dragon can be re-fought.
 

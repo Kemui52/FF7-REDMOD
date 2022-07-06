@@ -40,11 +40,13 @@ del12.bsx	(Tifa)
 
 -Unexplained BS
  md8_4 will randomly hang before Main???
-  testing a fix, if l can remember what l was going to test
+  testing final fix, if NPC flag doesn't work, we'll just skip it
 
 -DAT model data:
 Red	04 1E 16 __ 00 00 00 05
 Aeris	01 18 10 __ 00 00 00 02
+Empty	__ 0E 08 __ __ __ __ __  --result of minus 8 and 7 due to inserting Red
+				 --not that it always works because lolrandom allocations
 
 -DAT documentation from modding wiki:
 Structure
