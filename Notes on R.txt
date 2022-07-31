@@ -40,7 +40,7 @@ del12.bsx	(Tifa)
 
 -Unexplained BS
  md8_4 will randomly hang before Main???
-  testing final fix, if NPC flag doesn't work, we'll just skip it
+  found out it simply hates the model swop, so skipping this map
 
 -DAT model data:
 Red	04 1E 16 __ 00 00 00 05
@@ -65,6 +65,17 @@ Offset	Size	Data
 5	1	Non Playable Character? (sometimes 1, also present in the PC model loader)
 6	1	Unknown
 7	1	Global model ID (to find out which BCX to use)
+
+-Face textures
+Eye 0 None
+Eye 1 Normal
+Eye 2 Blink
+Eye 3 Happy
+Eye 4 Squint
+Eye 5 Sad
+Mouth 0 None
+Mouth 1 Closed
+Mouth 2 Open
 
 -Materia 20 types
  0 Strength

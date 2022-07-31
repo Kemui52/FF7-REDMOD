@@ -116,9 +116,9 @@ Attack %:       108
 Magic Attack:   20
 Materia Growth: Normal
 Cost:           17000
-Location:       0=0 0=0 0=0
-Slots:          ---
-Notes:
+Location:       Bought at Mideel
+Slots:          0=0 0=0 0=0
+Notes:          ---
 
 ---------------------------------------------------------------------
 
