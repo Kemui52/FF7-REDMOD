@@ -45,8 +45,12 @@ del12.bsx	(Tifa)
 -DAT model data:
 Red	04 1E 16 __ 00 00 00 05
 Aeris	01 18 10 __ 00 00 00 02
-Empty	__ 0E 08 __ __ __ __ __  --result of minus 8 and 7 due to inserting Red
-				 --not that it always works because lolrandom allocations
+--BSX data
+ Header's 0x4 points to model info. From there...
+ 0x0 RAM-style pointer to itself?
+ 0x4 Number of models
+ 0x8 Unknown, maybe pointer to end of data?
+ 0xC Memory allocation amount. Increasing this by 0x1000 fixes lighting.
 
 -DAT documentation from modding wiki:
 Structure
