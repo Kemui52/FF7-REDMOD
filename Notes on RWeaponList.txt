@@ -1,4 +1,7 @@
 Excerpt from: Monster/Item/Weapon Lists GameFAQ by DC
+https://gamefaqs.gamespot.com/ps/197341-final-fantasy-vii/faqs/8668
+
+Edited to reflect notes on future changes in mod.
 ---------------------------------------------------------------------
 
 Name:           Mythril Clip
@@ -27,9 +30,9 @@ Notes:          ---
 ---------------------------------------------------------------------
 
 Name:           Magic Comb
-Attack:         37
+Attack:         37		nerf to 35
 Attack %:       100
-Magic Attack:   4
+Magic Attack:   4		buff to 12
 Materia Growth: Double
 Cost:           2000		New Spot: Shinra Building
 Location:       Won at Fort Condor, bought at Junon (Disc 2)
@@ -38,44 +41,32 @@ Notes:          ---
 
 ---------------------------------------------------------------------
 
-Name:           Plus Barrette
-Attack:         39
-Attack %:       104
-Magic Attack:   12
-Materia Growth: Double
-Cost:           3500		New Spot: Kalm
-Location:       Mt.Nibel, bought at Junon (Disc 2)
-Slots:          0 0 0 0
-Notes:          ---
-
----------------------------------------------------------------------
-
-Name:           Seraph Comb
-Attack:         68
-Attack %:       110
-Magic Attack:   14
-Materia Growth: Normal
-Cost:           ---
-Location:       Recieved after the Cave of the Gi
-Slots:          0 0 0 0
-Notes:          Memento of father
-
----------------------------------------------------------------------
-
 Name:           Silver Barrette
-Attack:         40
+Attack:         40		buff to 42
 Attack %:       110
 Magic Attack:   10
 Materia Growth: Normal
-Cost:           2500		New Spot: Junon/Costa del Sol, or won at Fort Condor
+Cost:           2500		New Spot: Kalm
 Location:       Bought at Cosmo Canyon
 Slots:          0=0 0=0
 Notes:          ---
 
 ---------------------------------------------------------------------
 
+Name:           Plus Barrette
+Attack:         39		buff to 44
+Attack %:       104
+Magic Attack:   12		buff to 16
+Materia Growth: Double
+Cost:           3500		New Spot: Junon/Costa del Sol, or won at Fort Condor
+Location:       Mt.Nibel, bought at Junon (Disc 2)
+Slots:          0 0 0 0
+Notes:          ---
+
+---------------------------------------------------------------------
+
 Name:           Gold Barrette
-Attack:         50
+Attack:         50		buff to 56
 Attack %:       104
 Magic Attack:   13
 Materia Growth: Normal
@@ -86,67 +77,79 @@ Notes:          ---
 
 ---------------------------------------------------------------------
 
-Name:           Hairpin
-Attack:         57
-Attack %:       120
-Magic Attack:   15
-Materia Growth: None
-Cost:           6000		New Spot: Gongaga
-Location:       Secret passage in house (Wutai)
-Slots:          None
-Notes:          ---
-
----------------------------------------------------------------------
-
 Name:           Adaman Clip
-Attack:         60
+Attack:         60		buff to 70
 Attack %:       106
-Magic Attack:   15
+Magic Attack:   15		buff to 18
 Materia Growth: Normal
-Cost:           11000		New Spot:
+Cost:           11000		New Spot: Gongaga
 Location:       Bought at Icicle Village
 Slots:          0=0 0=0 0 0
 Notes:          Long Range
 
 ---------------------------------------------------------------------
 
-Name:           Crystal Comb
-Attack:         76
-Attack %:       108
-Magic Attack:   20
-Materia Growth: Normal
-Cost:           17000
-Location:       Bought at Mideel
-Slots:          0=0 0=0 0=0
-Notes:          ---
-
----------------------------------------------------------------------
-
-Name:           Centclip
-Attack:         58
-Attack %:       108
-Magic Attack:   22
-Materia Growth: Normal
-Cost:           14000		New Spot: Bought at Cosmo Canyon
-Location:       Bought at Costa Del Sol (Disc 2)
-Slots:          0 0 0 0 0 0 0 0
-Notes:          ---
-
----------------------------------------------------------------------
-
-Name:           Spring Gun Clip
-Attack:         87
-Attack %:       100
-Magic Attack:   55
+Name:           Seraph Comb	(standard, well-rounded)
+Attack:         68		buff to 84
+Attack %:       110
+Magic Attack:   14		buff to 23
 Materia Growth: Normal
 Cost:           ---
-Location:       Ancient Forest
-Slots:          0=0 0=0 0=0
+Location:       Received after the Cave of the Gi
+Slots:          0 0 0 0		buff to three linked
+Notes:          Memento of father
+
+---------------------------------------------------------------------
+
+Name:           Centclip	(change to kill-based weapon?)
+Attack:         58		buff to 70
+Attack %:       108
+Magic Attack:   22
+Materia Growth: Normal		or buff to double?
+Cost:           14000		New Spot: Somewhere after Cosmo Canyon/bought at?
+Location:       Bought at Costa Del Sol (Disc 2)
+Slots:          0 0 0 0 0 0 0 0	change to five unlinked
 Notes:          ---
 
 ---------------------------------------------------------------------
 
-Name:           Behemoth Horn
+Name:           Crystal Comb	(triple growth, few slots)
+Attack:         87		buff to 87
+Attack %:       108
+Magic Attack:   20		buff to 22
+Materia Growth: Normal		buff to triple
+Cost:           17000
+Location:       Bought at Mideel
+Slots:          0=0 0=0 0=0	nerf to four unlinked
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Spring Gun Clip	(magic boost, but weak physical)
+Attack:         87		nerf this to 52
+Attack %:       100
+Magic Attack:   55		buff this? decent enough as is
+Materia Growth: Normal
+Cost:           ---		New Spot: Somewhere else
+Location:       Ancient Forest
+Slots:          0=0 0=0 0=0	one more slot?
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Hairpin		(joke weapon, crit boost, but no slots)
+Attack:         57		rebalance this
+Attack %:       120
+Magic Attack:   15		should this be buffed?
+Materia Growth: None
+Cost:           6000unsell this	New Spot: Somewhere competing w/ Behemoth Horn
+Location:       Secret passage in house (Wutai)
+Slots:          None
+Notes:          ---
+
+---------------------------------------------------------------------
+
+Name:           Behemoth Horn	(lotta damage, defense, but no linked slots)
 Attack:         91
 Attack %:       75
 Magic Attack:   26
@@ -161,7 +164,7 @@ Notes:          Vitality +35, Spirit +18
 Name:           Limited Moon (ULTIMATE WEAPON)
 Attack:         93
 Attack %:       114
-Magic Attack:   31
+Magic Attack:   31		buff this
 Materia Growth: None
 Cost:           ---
 Location:       Bugenhagen gives it to you (Disc 3)
