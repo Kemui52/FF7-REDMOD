@@ -16,7 +16,7 @@ Round Square needs to be revisited. Prolly have to break the fourth wall.
 Chocobo Square door can be opened, huh? Ought to work that in considering what I did to Battle
 
 
--Replaced Files:
+-Replaced files:
 Kernel.bin
 LimtMenu.mnu
 Scene.bin
@@ -37,6 +37,7 @@ del12.bsx	(Tifa)
  del12
  del3
  blin63_t
+ colne_1 (increased filesize)
 
 -Unexplained BS
  md8_4 will randomly hang before Main???
@@ -97,3 +98,18 @@ Mouth 2 Open
 19 Adds steal, absorb, and added cut to Attack with value of 90 (four bits)?
 21 Adds unusable glitched command?
 83 Counter Attack
+
+-GameMoment listing
+0	Red not named yet
+1	Initial game setup complete, fighting train guards
+161	Sector 6 bridge placed
+162	Entered Wall Market
+192	Cloud disguised
+193	Corneo Hall open
+
+-Potential outline for building BIG disc
+Start with fresh FF7 disc	//why not use R disc?
+Use MassIsoUpdate to inject FIELD folder
+Use ff7tools fixup script on new file
+Use CDmage to inject Kernel and others so their allocations aren't too small
+Done?
