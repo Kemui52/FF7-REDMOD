@@ -104,12 +104,17 @@ Mouth 2 Open
 1	Initial game setup complete, fighting train guards
 161	Sector 6 bridge placed
 162	Entered Wall Market
+163	Corneo Hall open
 192	Cloud disguised
-193	Corneo Hall open
+236	Sector 7 plate?
+999	Meteor?
+tiaras: mkt_m
+wigs: mkt_mens
+coupon: mkt_s2 > medicine: mkt_s3 > colognes: mktpb
 
 -Potential outline for building BIG disc
-Start with fresh FF7 disc	//why not use R disc?
+Copy respective R disc
 Use MassIsoUpdate to inject FIELD folder
-Use ff7tools fixup script on new file
-Use CDmage to inject Kernel and others so their allocations aren't too small
+Use ff7tools fixup script on the affected disc
+Use CDmage to inject any Kernel or other things that need to be different
 Done?
