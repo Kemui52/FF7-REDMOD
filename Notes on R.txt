@@ -1,5 +1,4 @@
 -What did I need to do?
-
 Extra dungeons:
  Last map
  Great Glacier
@@ -12,8 +11,15 @@ Everyone's Limits should work fine enough.
   All done?
 Mini status always inflicts and lowers attack
  As such, Cornucopia is only cure and raises attack
+  Doesn't that mean no enemy should be immune so the effects match? Double check that...
+  Looks like it's fine since immunity prevents the debuff
 Round Square needs to be revisited. Prolly have to break the fourth wall.
 Chocobo Square door can be opened, huh? Ought to work that in considering what I did to Battle
+Since last replay:
+Did l let that door walk-thru on purpose?
+You can barely kill the scorpion boss before he puts tail up. ls that okay?
+A couple dialogues throughout could be touched up.
+WalkManPunk talks twice when you have the card.
 
 
 -Replaced files:
@@ -104,7 +110,7 @@ Mouth 2 Open
 1	Initial game setup complete, fighting train guards
 161	Sector 6 bridge placed
 162	Entered Wall Market
-163	Corneo Hall open
+163	Corneo Hall open (having the key means you broke in?)
 192	Cloud disguised
 236	Sector 7 plate?
 999	Meteor?
